@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kelsey E. Grinde, PhD"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: Scholarship
+        href: research.qmd
+      - text: Resources
+        href: resources.qmd
+      - text: About Me
+        href: about.qmd
+    tools: 
+      - icon: file-person
+        text: CV
+        href: cv/cv.pdf
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

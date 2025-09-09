@@ -1,0 +1,1445 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\makeatletter
+\def\@classoptionslist{<class options except `margin` OR empty>}
+\makeatother
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\setlength{\textwidth}{5.1in} % set width of text portion
+%\newsectionwidth{1.3in}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=cyan,
+    }
+\usepackage{ulem}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\addtolength{\topmargin}{-0.3in}
+\addtolength{\textheight}{0.6in}
+
+\newenvironment{benumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    
+    \begin{enumerate}
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+}
+
+%\newcommand{\annotate}[1]{\begin{footnotesize}\textcolor{blue}{#1}\end{footnotesize}}
+\newcommand{\annotate}[1]{\textcolor{black}{\textbf{(#1)}}}
+
+%\newcommand{\annotateItem}[1]{
+%	\begin{itemize} \vspace{-0.1cm}
+%	\item[] 
+%	\begin{footnotesize}\textcolor{blue}{#1}\end{footnotesize}
+%	\end{itemize} \vspace{-0.1cm}
+%}
+\newcommand{\annotateItem}[1]{
+	\begin{itemize} \vspace{-0.1cm}
+	\item[] 
+	\begin{footnotesize}\textcolor{black}{(#1)}\end{footnotesize}
+	\end{itemize} \vspace{-0.1cm}
+}
+
+%\usepackage[paperwidth=8.5in,paperheight=11in]{geometry}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Kelsey E. Grinde}
+ %\moveleft.5\hoffset\centerline{\large Ph.D. Candidate}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{Box 357232}
+% \moveleft.5\hoffset\centerline{University of Washington}
+% \moveleft.5\hoffset\centerline{Seattle, WA 98195}
+% \moveleft.5\hoffset\centerline{}
+% \moveleft.5\hoffset\centerline{\textbf{Phone:} (763) 567-8325}
+% \moveleft.5\hoffset\centerline{\textbf{Email:} grindek at uw dot edu}
+% \moveleft.5\hoffset\centerline{\textbf{Web:} students.washington.edu/grindek}
+
+
+\begin{resume}
+
+\vspace{-8mm}
+
+\section{CONTACT} Mathematics, Statistics, and Computer Science  \hfill kgrinde@macalester.edu\\
+				Macalester College \hfill (651)-696-6976 \\ 
+				%1600 Grand Avenue \hfill \href{https://kegrinde.github.io/}{kegrinde.github.io}\\
+				%Saint Paul, MN 55105  \\
+				Saint Paul, MN 55105  \hfill \href{https://kegrinde.github.io/}{kegrinde.github.io}\\
+ 
+\section{EDUCATION}  \textbf{Ph.D. in Biostatistics} \hfill 2019 \\ % August 2019 \\ %June 2019 (expected) \\
+					University of Washington, Seattle, WA \vspace{0.1cm}
+					\begin{itemize} \itemsep -2pt
+					\item[] Dissertation: \textit{Statistical inference in admixed populations}
+					\item[] Advisor: Sharon Browning
+					\end{itemize}
+					
+					\textbf{B.A. in Mathematics}, Concentration in Statistics  \hfill 2014 \\ %May 2014 \\
+					St. Olaf College, Northfield, MN \vspace{0.1cm}
+					\begin{itemize} \itemsep -2pt
+					\item[] Graduated \textit{summa cum laude} with Distinction in Statistics 
+					\item[]Advisor: Paul Roback\\
+					\end{itemize}
+					
+\section{WORK EXPERIENCE}
+
+\textbf{Assistant Professor}\hfill 2020--present \\
+Department of Mathematics, Statistics, \& Computer Science \\
+Macalester College, Saint Paul, MN
+
+\textbf{Postdoctoral Teaching Fellow}\hfill 2019--2020 \\
+Department of Mathematics, Statistics, \& Computer Science \\
+Macalester College, Saint Paul, MN
+
+\textbf{Graduate Research Assistant} \hfill 2014--2015, 2016--2019\\
+Browning Statistical Genetics Lab \\
+University of Washington, Seattle, WA
+	%\begin{itemize} \itemsep -2pt
+	%\item[] Supervisor: Sharon Browning, Ph.D.
+	%\item[] Funded by \textit{National Science Foundation Graduate Research Fellowship}
+	%\end{itemize}
+	
+\textbf{Graduate Research Assistant} \hfill 2015--2016 \\
+Genetic Analysis Center \\
+University of Washington, Seattle, WA
+	%\begin{itemize} \itemsep -2pt
+	%\item[] Primary Supervisor: Tamar Sofer, Ph.D.
+	%\item[] Funded in part by \textit{National Institutes of Health Statistical Genetics Training Grant}
+	%\end{itemize}
+	
+%\textbf{Graduate Research Assistant} \hfill 2014--2015 \\
+%Browning Statistical Genetics Lab \\
+%University of Washington, Seattle, WA
+	%\begin{itemize}
+	%\item[] Supervisor: Sharon Browning, Ph.D.
+	%\end{itemize}
+
+\textbf{Undergraduate Research Assistant} \hfill 2013, 2014 \\
+Summer Research Program in Statistical Genetics \& Biostatistics \\
+Dordt College, Sioux Center, IA
+	%\begin{itemize}
+	%\item[] Supervisor: Nathan Tintle, Ph.D.
+	%\end{itemize}
+
+\textbf{Undergraduate Research Fellow} \hfill 2013--2014 \\
+Center for Interdisciplinary Research \\
+St. Olaf College, Northfield, MN \\
+
+
+\section{TEACHING EXPERIENCE}
+
+\textbf{Macalester College}
+\begin{itemize} 
+%\item STAT 355: Statistical Theory \hfill (2026) \\
+%Sections Taught: Spring 2026
+\item STAT 253: Statistical Machine Learning \hfill 2024--present \\
+Sections Taught: Fall 2024 ($\times 3$), Spring 2025, Fall 2025 ($\times 3$)%,Spring 2026 
+\item STAT 494: Statistical Genetics \hfill 2022, 2025 \\
+Sections Taught: Fall 2022, Spring 2025
+\item MATH/STAT 455: Mathematical Statistics  \hfill 2020--2023 \\ 
+Sections Taught: Spring 2020, Spring 2021, Spring 2022, Spring 2023
+\item STAT 155: Introduction to Statistical Modeling  \hfill 2019--2023 \\
+Sections Taught: Fall 2019 ($\times 2$), Spring 2020, Fall 2020 ($\times 2$), Spring 2021,\\ 
+Fall 2021 ($\times 2$), Spring 2022 ($\times 2$), Fall 2022, Spring 2023 ($\times 2$)
+\end{itemize}
+
+\newpage
+\textbf{University of Washington}
+\begin{itemize}
+\item BIOST 311: Regression Methods in the Health Sciences, Co-Instructor \hfill  2018 
+%\%begin{itemize} 
+%%\item[] Faculty Advisors: Jim Hughes, Ph.D.; Barbara McKnight, Ph.D.
+%%\item[] Overall Median Course Evaluation: 4.9/5.0 
+%%\item[] (co-taught with Brian Williamson)
+%\end{itemize} 
+\item BIOST 310: Biostatistics for the Health Sciences, Teaching Assistant  \hfill 2017 
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Instructor: Lloyd Mancl, Ph.D.
+%%\item[] Responsibilities: development \& delivery of all discussion section content 
+%%\end{itemize}
+\item BIOST 561: Computational Skills for Biostatistics, Guest Lecturer \hfill 2017
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Lecture Title: ``Introduction to \LaTeX" 
+%%\item[] Instructor: Amy Willis, Ph.D.
+%%\end{itemize}
+\item BIOST 550: Statistical Genetics I, Guest Lecturer  \hfill 2017 
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Lecture Title: ``Statistical inference in populations with mixed ancestry" 
+%%\item[] Instructor: Sharon Browning, Ph.D.
+%%\end{itemize}
+\item BIOST 570: Regression Methods for Independent Data, Teaching Asst.  \hfill 2016 
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Faculty: Jon Wakefield, Ph.D.
+%%\item[] Responsibilities: homework keys, grading, office hours
+%%\end{itemize}
+\item First Year Statistical Theory Exam Review Sessions, Co-Instructor  \hfill 2016 
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Faculty Advisor: Scott Emerson, Ph.D.
+%%\item[] Responsibilities: co-organizer and instructor for qualifying exam review sessions
+%%\end{itemize}
+\end{itemize}
+
+
+\textbf{St. Olaf College}
+\begin{itemize}
+\item STAT 322: Statistical Theory, Grader \hfill 2013 
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Supervisor: Paul Roback, Ph.D.
+%%\item[] Responsibilities: grading
+%%\end{itemize}
+\item Academic Support Center, Tutor \& Academic Assistant \hfill 2011--2012 \\
+%\begin{footnotesize}(SPAN 231: Intermediate Spanish I, SPAN 232: Intermediate Spanish II, \\MATH 120:  Calculus I, MATH 252: Abstract Algebra I)\end{footnotesize}
+\begin{footnotesize}(Intermediate Spanish I \& II, Calculus I, Abstract Algebra I)\end{footnotesize}
+%%\begin{itemize} \itemsep -2pt
+%%\item[] Supervisors: Ruth Bolstad; Peder Bolstad
+%%\item Academic Assistant, Math and Spanish \hfill 2012 %Fall 2012 %\textit{MATH 120: Calculus I}, \textit{MATH 252: Abstract}  \\ \textit{Algebra I}, \textit{SPAN 231: Intermediate Spanish I}, \textit{SPAN 232: Intermediate Spanish II}
+%%\item Intermediate Spanish Tutor \hfill 2012 % Spring 2012
+%%\textit{SPAN 232: Intermediate Spanish II}
+%%\end{itemize}
+\item Urban Schools and Communities Program, Participant \hfill 2012 \\
+\begin{footnotesize}(Anderson Elementary School [1st Grade], Waite House Afterschool Programs [K--8th Grade]) \end{footnotesize} 
+%%\begin{itemize} \itemsep -2pt
+%%\item Anderson Elementary School, 1st Grade
+%%\item Waite House Afterschool Programs, K--8th Grade
+%%\end{itemize}
+\item Department of Mathematics, Statistics, and Computer Science, Tutor  \hfill 2011 \\
+%\begin{footnotesize}(MATH 120: Calculus I, MATH 126: Calculus II, MATH 226: Multivariable Calculus) \end{footnotesize} \\ 
+\begin{footnotesize}(Calculus I \& II, Multivariable Calculus) \end{footnotesize} \\ 
+\end{itemize}
+
+%Northfield Public Schools, Teaching Assistant (Volunteer) %\hfill September 2011--May 2014
+%\begin{itemize}  \itemsep -2pt %reduce space between items
+%\item Northfield High School, Algebra \hfill 2014 % Spring 2014
+%\item Bridgewater Elementary School, 1st \& 3rd Grade Math \hfill 2011 %Fall 2011
+%\item Bridgewater Elementary School, 1st Grade Math \hfill Fall 2011
+% \end{itemize}
+
+%Wayzata High School, Teaching Assistant (Volunteer) \hfill 2011  %Summer 2011 %\hfill June--August 2011
+%\begin{itemize}
+%\item Summer Test Preparation, Pre-Algebra 
+%\end{itemize}
+
+%Northfield Public Schools, Tutor (Volunteer)
+%\begin{itemize} \itemsep -2pt
+%\item Northfield Middle School Youth Center \hfill 2012 %Fall 2012
+%\item Northfield Middle School ESL, 7th Grade  Math \hfill 2012 %Spring 2012
+%\item Northfield High School, Minnesota GRAD Test Prep \hfill 2012 %Spring 2012 
+%\end{itemize}
+				
+
+
+\section{PUBLICATIONS} 
+
+\begin{itemize}
+\item[*] \textit{denotes an undergraduate student}
+\item[+] \textit{denotes joint first authors }
+\end{itemize}
+
+%\annotate{NOTE: Annotations are highlighted in blue below.}
+%\annotate{Five-year impact factors come from the Journal Citation Reports, journal rankings come from Scimago Journal Rank, and citation counts come from Google Scholar.}
+
+\textbf{Refereed Journal Articles}
+
+\begin{itemize}
+\item[15.] \textbf{Grinde, K.}, Browning, B., Reiner, A., Thornton, T., \& Browning, S. ``Adjusting for principal components can induce collider bias in genome-wide association studies." \textit{PLOS Genetics} 20.12 (2024):  e1011242. \href{https://doi.org/10.1371/journal.pgen.1011242}{[link]}
+%	\annotateItem{
+%	This paper compares methods for controlling for ancestral heterogeneity in genome-wide association studies and demonstrates potential pitfalls of widely-used approaches based on principal component analysis. 
+%	I am the first and primary author on this publication: I conducted all data analyses, designed and implemented the simulations studies, derived all theoretical results, and wrote the manuscript.
+%	(My co-authors primarily provided data access, computational resources, and reviewed/edited the writing.) 
+%	The paper is published in \textit{PLOS Genetics}, a leading journal in genetics and genomics research.
+%	More specifically, \textit{PLOS Genetics} is an Open Access journal with an impact factor of 4.9 and ranks in the top quartile of genetics journals.
+%	As of \today, this paper (or its preprint, posted to bioRxiv earlier in 2024) has been cited 9 times.
+%	}
+
+\item[14.] Horimoto, A., Boyken, L., Blue, E., \textbf{Grinde, K.}, Nafikov, R., Sohi, H., Nato, A., Bis, J., Brusco, L., Morelli, L., Ramirez, A., Dalmasso, M.,  Temple, S., Satizabal, C., Browning, S., Seshadri, S., Wijsman, E., \& Thornton, T. ``Admixture mapping implicates \textit{LIG4}, \textit{MYO16}, and \textit{FAM155A} at 13q33.3 as ancestry-of-origin loci for Alzheimer disease in Hispanic and Latino populations." \textit{HGG Advances} 4.3 (2023): 1000207.  
+\href{https://www.cell.com/hgg-advances/pdf/S2666-2477(23)00039-8.pdf}{[link]}
+%	\annotateItem{
+%	This paper proposes a method for conducting admixture mapping studies with a binary trait and applies the method to a study of Alzheimer's disease. 
+%	I consulted on various aspects of the methods used in this paper, including genetic ancestry inference, model design, and adjustment for multiple testing.
+%	The journal, \textit{HGG Advances}, is the Open Access companion journal of the prestigious \textit{American Journal of Human Genetics} (the official journal of the American Society of Human Genetics). 
+%	Although a newer journal, \textit{HGG Advances} has already acquired an impact factor of 3.2 and ranks in the top quartile of genetics journals.
+%	As of \today, this paper has been cited 9 times.
+%	}
+
+\item[13.] Barragan, F.$^*$, Mills, L., Raduski, A., Marcotte, E., \textbf{Grinde, K.}, Spector, L., \& Williams, A. ``Genetic ancestry, differential gene expression, and survival in pediatric b-cell acute lymphoblastic leukemia." \textit{Cancer Medicine} 12.4 (2023): 4761--4772.
+\href{https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.5266}{[link]}
+%	\annotateItem{
+%	This paper is a collaboration with Macalester student F. Sofia Barragan and investigators in the Division of Epidemiology and Clinical Research at the University of Minnesota. 
+%	I advised Sofia in all aspects of the project concerning genetic ancestry, as well as general figure creation and writing.
+%	This work is published in \textit{Cancer Medicine}, an Open Access journal that publishes work related to cancer research, biology, and prevention, as well as bioinformatics. 
+%	\textit{Cancer Medicine} has an impact factor of 3.9 and ranks in the second quartile of journals in oncology and cancer research.
+%	As of \today, this paper has been cited 5 times. \\ 
+%	Another version of this work, with additional emphasis on statistical methodology, was included in Sofia's honors thesis titled ``Statistical genetics for pediatric leukemia: characterizing racial disparities in pediatric acute lymphoblastic leukemia" and successfully defended in April 2022.
+%	}
+
+
+\item[12.] Zucko, D., Hayir, A.$^*$,  \textbf{Grinde, K.}, \& Boris-Lawrie, K. ``Circular RNA Profiles in Viremia and ART Suppression Predict Competing circRNA– miRNA–mRNA Networks Exclusive to HIV-1 Viremic Patients." \textit{Viruses} 14.4 (2022): 683. 
+\href{https://www.mdpi.com/1999-4915/14/4/683}{[link]}
+%	\annotateItem{
+%	This paper is a collaboration with Macalester student Abdullgadir (AK) Hayir and researchers in the Department of Veterinary and Biomedical Sciences at the University of Minnesota.
+%	AK and I assisted with data visualization, creating one of the main figures in the paper (Figure 6) as well as an interactive version of the visualization that is available as a \texttt{shiny} app \href{https://kblcircosgraph.shinyapps.io/circos/}{[link]}. 
+%	This work appears in a special issue (``Next-Generation Technologies to Understand Mechanisms of Virus Infections") of the journal \textit{Viruses}, an Open Access journal of virology that is affiliated with numerous professional societies in the field (e.g., the American Society for Virology). \textit{Viruses} has an impact factor of 4.0 and ranks in the top quartile of journals in infectious diseases and virology. %and ranks in the second quartile (Q2) of virology journals according to Journal Citation Reports and the top quartile (Q1) of infectious disease journals according to CiteScore. 
+%	As of \today, this paper has 7 citations.
+%	 }
+
+\item[11.] Lin, B.$^{+}$, \textbf{Grinde, K.}$^{+}$, Brody, J., Breeze, C., Raffield, L., Mychaleckyj, J., Thornton, T., Perry, J., Baier, L., de Las Fuentes, L., Guo, X., Heavner, B., Hanson, R.,  Hung, Y.-J., Qian, H.,  Hsiung, C., Hwang, S.-J., Irvin, M., Jain, D., Kelly, T., Kobes, S.,  Lange, L., Lash, J.,  Li, Y.,  Liu, X.,  Mi, X., Musani, X., Papanicolaou, G., Parsa, A., Reiner, A., Salimi, S., Sheu, W., Shuldiner, A., Taylor, K., Smith, A., Smith, J., Tin, A., Vaidya, D., Wallace, R., Yamamoto, K., Sakaue, S., Matsuda, K.,  Kamatani, Y.,  Momozawa, Y., Yanek, L., Young, B.,  Zhao, W.,  Okada, Y.,  Abecasis, G., Psaty, B.,  Arnett, D.,  Boerwinkle, E.,  Cai, J., Chen, I., Correa, A., Cupples, L.A.,  He, J., Kardia, S.,  Kooperberg, C., Mathias, R., Mitchell, B., Nickerson, D., Turner, S., Ramachandran, V., Rotter, J., Levy, D.,  Kramer, H.,  Köttgen, A., Rich, S., Lin, D.-Y., Browning, S., Franceschini, N., \& TOPMed Kidney Working Group. ``Whole genome sequence analyses of eGFR in 23,732 people representing multiple ancestries in the NHLBI Trans-Omics for Precision Medicine (TOPMed) consortium." \textit{eBioMedicine} 63 (2021): 103157.
+\href{https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)30533-8/fulltext}{[link]}
+%	\annotateItem{
+%	This paper is a collaboration with the TOPMed Kidney Working Group and an application of some of the methods proposed in my graduate dissertation. 
+%	I am a joint first-author on this paper. I designed, conducted analyses, and wrote all portions of the paper related to local ancestry inference, admixture mapping, and ancestry-specific allele frequency estimation. 
+%	This work appears in \textit{eBioMedicine}, an Open Access journal for translational biomedical research that is one of two Open Access offerings in the \textit{Lancet} (a top medical journal) family. \textit{eBioMedicine} has an impact factor of 9.2 and ranks in the top quartile of journals in genetics and medicine. %, and ranks 17th (out of 140) among research and experimental medicine journals according to Journal Citation Reports. 
+%	As of \today, this paper has 21 citations.
+%	}
+
+\item[10.] Raffield, L., Lu, A., Szeto, M., Little, A., \textbf{Grinde, K.},  Shaw, J., Auer, P., Cushman, M., Horvath, S., Irvin, M., Lange, E., Lange, L., Nickerson, D., Thornton, T., Wilson, J., Wheeler, M., NHLBI TOPMed Consortium, TOPMed Hematology \& Hemostasis Working Group, Zakai, N., \& Reiner, A. ``Coagulation factor VIII: Relationship to cardiovascular disease risk and whole genome sequence and epigenome-wide analysis in African Americans." \textit{Journal of Thrombosis and Haemostasis} 18.6 (2020): 1335--1347.
+\href{https://www.sciencedirect.com/science/article/pii/S1538783622014118}{[link]}
+%	\annotateItem{
+%	This paper is a collaboration with the TOPMed Hematology \& Hemostasis Working Group and an application of some of the methods proposed in my graduate dissertation. 
+%	I helped with the design, analyses, and writing of the portions of the paper related to admixture mapping. 
+%	This work appears in the \textit{Journal of Thrombosis and Haemostasis} (JTH), which is the official journal of the International Society on Thrombosis and Haemostasis. JTH has an impact factor of 6.6 and ranks in the top quartile journals in hematology. % and ranks 17th (out of 76) in hematology journals and 9th (out of 65) in peripheral vascular disease according to  Journal Citation Reports.
+%	As of \today, this paper has 25 citations.
+%	}
+
+\item[9.] Shungin, D., Haworth, S., Divaris, K., Agler, C., Kamatani, Y., Lee, M.K., \textbf{Grinde, K.}, Hindy, G., Alaraudanjoki, V., Pesonen, P., Temuer, A., Holtfreter, B., Sakaue, S., Hirata, J., Yu, Y.H., Ridker, P., Giulianini, F., Chasman, D., Magnusson, P., Sudo, T., Okada, Y., Voelker, U., Kocher, T., Anttonen, V., Laitala, M.L., Orho-Melander, M., Sofer, T., Shaffer, J., Vieira, A., Marazita, M., Kubo, M., Furuichi, Y., North, K., Offenbacher, S., Ingelsson, E., Franks, P., Timpson, N., Johansson, I. ``Genome-wide analysis of dental caries and periodontal disease combining clinical and self-reported data." \textit{Nature Communications} 10.1 (2019): 2773.
+\href{https://www.nature.com/articles/s41467-019-10630-1}{[link]}
+%	\annotateItem{
+%	This paper presents results from an international collaboration to conduct a meta-analysis of genome-wide association studies (GWAS) of dental diseases and traits. 
+%	I first conducted GWAS in collaboration with the Hispanic Community Health Study/Study of Latinos (HCHS/SOL) Dental Working Group and then contributed our HCHS/SOL results to this larger meta-analysis effort led by Dmitry Shungin. %Our contributed GWAS results are the only results from a study of Hispanic/Latino individuals included in the meta-analysis. 
+%	This work appears in \textit{Nature Communications}, an Open Access journal that publishes work across the sciences and is part of the prestigious \textit{Nature Research} portfolio of journals. \textit{Nature Communications} has an impact factor of 16.1 and ranks in the top quartile of journals across a variety of disciplines, including genetics.
+%	As of \today, this is my top-cited paper, with 296 citations.
+%	}	
+
+\item[8.] Sofer, T., Zheng, X., Gogarten, S.M., Laurie, C.A., \textbf{Grinde, K.}, Shaffer, J.R., Shungin, D., O'Connell, J.R., Durazo-Arvizo, R.A., Raffield, L., Lange, L., Musani, S., Vasan, R.S., Cupples, L.A., Reiner, A.P., Laurie, C.C., Rice, K.M. ``A fully-adjusted two-stage procedure for rank normalization in genetic association studies." \textit{Genetic Epidemiology} 43.3 (2019): 263--275.
+\href{https://onlinelibrary.wiley.com/doi/abs/10.1002/gepi.22188}{[link]}
+%	\annotateItem{
+%	This paper proposes methods to address departures from normality in genetic association studies. 
+%	The methods development was motivated in part by the analysis that I conducted in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL) for refereed journal article [9]. The HCHS/SOL analysis serves as one of the illustrative examples included in this paper. 
+%	This work appears in \textit{Genetic Epidemiology}, the official journal of the International Genetic Epidemiology Society. \textit{Genetic Epidemiology} has an impact factor of 2.4 and ranks in the second quartile of genetics journals. (Note that lower impact factors and citation counts are common in journals that focus on statistical methods, as this one does.) 
+%	As of \today, this paper has 81 citations.
+%	}
+
+\item[7.] \textbf{Grinde, K.}, Brown, L., Reiner, A., Thornton, T., Browning, S. ``Genome-wide significance thresholds for admixture mapping studies." \textit{American Journal of Human Genetics} 104 (2019): 454--465. 
+\href{https://www.cell.com/ajhg/pdf/S0002-9297(19)30008-4.pdf}{[link]}
+%	\annotateItem{
+%	This paper proposes methods for estimating the number of generations since admixture and the genome-wide significance threshold for admixture mapping studies. It represents one of the major projects of my graduate dissertation.
+%		I developed the methods, derived the theoretical results, conducted all analyses (with the exception of local ancestry inference, which was conducted by my co-author Lisa Brown), and wrote the paper.
+%	This work appears in the \textit{American Journal of Human Genetics} (AJHG), the official journal of the American Society of Human Genetics. AJHG has an impact factor of 9.7, ranks in the top quartile of journals in genetics, and is generally regarded as one of the best journals in this field. 
+%	As of \today, this paper has 54 citations.
+%	} 
+
+\item[6.] \textbf{Grinde, K.}, Qi, Q., Thornton, T., Liu, S., Shadyab, A.H., Chan, K.H.K., Reiner, A.P., \& Sofer, T. ``Generalizing polygenic risk scores from Europeans to Hispanics/Latinos." \textit{Genetic Epidemiology} 43.1 (2019): 50--62. 
+\href{https://onlinelibrary.wiley.com/doi/abs/10.1002/gepi.22166}{[link]}
+%	\annotateItem{
+%	This paper proposes and evaluates methods for constructing polygenic risk scores in admixed populations.
+%	Along with senior author Tamar Sofer, I was the primary contributor to the methods development, data analyses, simulation studies, and writing.
+%	This work appears in \textit{Genetic Epidemiology}, the official journal of the International Genetic Epidemiology Society (IGES).
+%	\textit{Genetic Epidemiology} has an impact factor of 2.4 and ranks in the second quartile of genetics journals. 
+%	This paper was selected as the ``IGES Communication Committee Highlight" from its issue of \textit{Genetic Epidemiology} and is among the journal's ten most highly cited recent articles (source: \href{https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1098-2272.GEPI-top-cited}{Top-cited \textit{Genetic Epidemiology} Articles)}. 
+%  As of \today, this is my top-cited first-author paper, with 116 citations.
+%	} 
+ 
+\item[5.] \textbf{Grinde, K.}, Green, A., Arbet, J., O'Connell, M., Valcarcel, A., Westra, J., \& Tintle, N. ``Illustrating, quantifying and correcting for bias in post-hoc analysis of gene-based rare variant tests of association." \textit{Frontiers in Genetics} 8.117 (2017): 1--11. 
+\href{https://www.frontiersin.org/articles/10.3389/fgene.2017.00117/full}{[link]}
+%	\annotateItem{
+%	This paper proposes methods to address the phenomenon of \textit{winner's curse} when estimating genetic effect sizes after gene-based testing.
+%		Initial analyses, simulation studies, and methods development were conducted collaboratively with fellow undergraduate co-authors. I took the lead in continuing the work and writing the manuscript with supervisor Nathan Tintle after the conclusion of the summer undergraduate research program. 
+%	This work appears in the \textit{Statistical Genetics and Methodology} section of \textit{Frontiers in Genetics}, an Open Access journal publishing work across the fields of genetics and genomics. % that uses a unique, transparent peer-review system with reviewer names listed on the published article. 
+%	\textit{Frontiers in Genetics} has an impact factor of 3.3 and ranks in the second quartile of journals in genetics. 
+%	As of \today, this paper has 9 citations.
+%	} 
+	
+\item[4.] Browning, S.R., \textbf{Grinde, K.}, Plantinga, A., Gogarten, S.M., Stilp, A.M., Kaplan, R.C., Avil\'es-Santa, L., Browning, B.L., \& Laurie, C.C. ``Local ancestry inference in a large US-based Hispanic/Latino study: Hispanic Community Health Study/Study of Latinos (HCHS/SOL)." \textit{G3: Genes}$|$\textit{Genomes}$|$\textit{Genetics} 6.6 (2016): 1525--1534.
+\href{https://academic.oup.com/g3journal/article/6/6/1525/6029932}{[link]}
+%	\annotateItem{
+%	This paper presents methods and results related to inferring local ancestry in a large study of Hispanics/Latinos. It includes a comparison of methods for local ancestry inference on chromosome X that stems from my graduate dissertation.
+%	I contributed all portions of the paper (methods development, data analysis, writing) related to chromosome X.
+%	 This work appears in the journal \textit{G3: Genes}$|$\textit{Genomes}$|$\textit{Genetics}, an Open Access journal affiliated with the Genetics Society of America (along with its highly-ranked companion journal, \textit{GENETICS}). \textit{G3} has an impact factor of 2.5 and currently ranks in the second quartile of journals in genetics. (At the time of publication, it ranked in the top quartile.)
+%	As of \today, this paper has 79 citations.
+%	} 
+	
+\item[3.] Greco, B., Hainline, A., Arbet, J., \textbf{Grinde, K.}, Benitez, A., \& Tintle, N. ``A general approach for combining diverse rare variant association tests provides improved robustness across a wider range of genetic architectures." \textit{European Journal of Human Genetics} 24 (2016): 767--773.
+\href{https://www.nature.com/articles/ejhg2015194}{[link]}
+%	\annotateItem{
+%	This paper proposes methods to combine different types of gene-based tests to improve power across a wide range of scenarios. 
+%	I began this work as an undergraduate research assistant, contributing to the simulation studies and data visualization, and then continued my work after the conclusion of the summer research program to assist with manuscript writing and editing.  %, but was brought onto the project after the methods had been developed. 
+%	This work appears in the \textit{European Journal of Human Genetics} (EJHG), the official journal of the European Society of Human Genetics. EJHG has an impact factor of 4.1 and ranks in the top quartile of journals in genetics. % and ranks 60th (out of 175) in genetics and heredity and 126th (out of 298) in biochemistry and molecular biology according to Journal Citation Reports.
+%	As of \today, this paper has 14 citations.
+%	} 	
+	
+\item[2.] Green, A., Cook, K., \textbf{Grinde, K.}, Valcarcel, A., \& Tintle, N. ``A general method for combining different family-based rare-variant tests of association to improve power and robustness of a wide range of genetic architectures." \textit{BioMed Central Proceedings} 10.7.23 (2016): 165--170.
+\href{https://bmcproc.biomedcentral.com/articles/10.1186/s12919-016-0024-y}{[link]}
+%	\annotateItem{
+%	This paper stems from refereed article [3], with a particular focus on tests that account for relatedness across individuals.
+%	I advised on methods development and assisted with initial data cleaning.
+%	This work appears in \textit{BioMed Central (BMC) Proceedings} as part of the conference proceedings for the 19th Genetic Analysis Workshop, a conference focused on evaluating and comparing statistical methods using a common dataset across all participants.
+%	\textit{BMC Proceedings} has an impact factor of 0.9 and ranks in the second quartile of journals in genetics and medicine. 
+%	As of \today, this paper has 4 citations.
+%	} 
+	
+\item[1.] Valcarcel, A., \textbf{Grinde, K.}, Cook, K., Green, A., \& Tintle, N. ``A multistep approach to single nucleotide polymorphism--set analysis: An evaluation of power and type I error of gene-based tests of association after pathway-based association tests." \textit{BioMed Central Proceedings} 10.7.16 (2016): 349--355.  %\\
+\href{https://bmcproc.biomedcentral.com/articles/10.1186/s12919-016-0055-4}{[link]}
+%	\annotateItem{
+%	This paper proposes a multi-step method for conducting genetic association tests (first at the higher-level pathway level, and then at the gene level) and stems from the same undergraduate research program as refereed journal articles [2], [3], and [5].
+%	Although it is not formally listed as such, I contributed to methods development, simulation studies, and writing jointly with the first author Alessandra Valcarcel.
+%	This work appears in \textit{BioMed Central (BMC) Proceedings} as part of the conference proceedings for the 19th Genetic Analysis Workshop.
+%	\textit{BMC Proceedings} has an impact factor of 0.9 and ranks in the second quartile of journals in genetics and medicine.
+%	As of \today, this paper has 1 citation.
+%	} 
+
+\end{itemize}
+	
+	
+\pagebreak	
+\textbf{Refereed Abstracts}
+\begin{itemize}
+\item[1.] Jensen-Otsu, E., \textbf{Grinde, K.}, Baxi, A., Harms, M., Teng, B., Strate, L.L., \& Ko, C.W. 
+``Anesthesia professional-delivered sedation is associated with similar outcomes compared to nurse administered sedation in patients admitted with acute upper gastrointenstinal bleeding." \textit{Gastrointenstinal Endoscopy} 87.6S (2018):  AB418--AB419. %\\
+\href{https://www.giejournal.org/article/S0016-5107(18)32182-5/fulltext}{[link]}
+%	\annotateItem{
+%	This abstract is the result of a consulting project with physician Elsbeth Jensen-Otsu to compare upper endoscopy surgery outcomes between patients whose anesthesia was administered by a nurse versus an anesthesiologist.
+%	I conducted all statistical analyses and contributed to the writing of methods and results. 
+%	This work is published in \textit{Gastrointestinal Endoscopy}, a journal focused on endoscopic procedures. \textit{Gastrointestinal Endoscopy} has an impact factor of 7.1 and ranks in the top quartile of journals in gastroenterology.
+%	Note that in some areas of medicine, refereed conference abstracts (rather than journal articles) are a primary vehicle for disseminating scholarship. 
+%	This abstract, and the corresponding conference presentation given by my collaborator Dr. Jensen-Otsu, was the culminating form of dissemination for this research. 
+%	}
+
+\end{itemize}
+
+
+
+\textbf{Open Education Resources}
+
+\begin{itemize}
+\item[3.] \textbf{Grinde, K.}, Heggeseth, B., Johnson, A., \& Myint, L.``STAT 253: Statistical Machine Learning Course Notes." Online course text (2025): \href{https://kegrinde.github.io/STAT253/}{[link]}. 
+%	\annotateItem{
+%	These are online, open-source course materials for the course \textit{STAT 253: Statistical Machine Learning}.  
+%	The course notes include daily lecture notes and in-class exercises, as well as linking to pre-class readings and videos. (The course operates under a ``flipped" structure.)
+%	The most recent iteration of the materials, linked above, were created by my colleague Brianna Heggeseth and myself in Spring 2025, but draw heavily from previous iterations of course materials created by our colleagues Alicia Johnson and Leslie Myint. 
+%	This is the primary text used by the $\approx$ 100--120 students that take this course at Macalester each year. 
+%	}
+
+\item[2.] \textbf{Grinde, K}. ``Rethinking grading systems in introductory and advanced statistics courses." \textit{Consortium for the Advancement of Undergraduate Statistics Education Resources for JEDI-Informed Teaching of Statistics} (2025): \href{https://causeweb.org/jedi/post/rethinking-grading-systems}{[link]}.
+%	\annotateItem{
+%	This online resource page provides a summary of resources and examples for educators interested in implementing alternative grading techniques in undergraduate statistics classrooms (and beyond). 
+%	I created this resource page to accompany a talk that I gave at the Joint Statistical Meetings in 2023 (see International Teaching Talk [3]) and was later invited to submit the resource to this repository of ``Resources for JEDI-Informed Teaching of Statistics."
+%	This repository is curated by the Consortium for the Advancement of Undergraduate Statistics Education (CAUSE) with the goal of sharing resources related to justice, equity, diversity, and inclusion (JEDI) with the statistics and data science education community. 
+%	Submitted resources are reviewed by members of the JEDI-CAUSE team before they are posted to the site.
+%	}
+
+\item[1.] Heggeseth, B., Myint, L., \& \textbf{Grinde, K.} ``Stat 155 Notes." Online textbook (2021): \href{https://mac-stat.github.io/Stat155Notes/}{[link]}.  
+%	\annotateItem{
+%	This is an online, open-source textbook for the course \textit{STAT 155: Introduction to Statistical Modeling}.
+%	My colleagues Brianna Heggeseth and Leslie Myint created the first draft of this text, but I have since contributed to updated versions. 
+%	This is the primary text used by the $\approx$ 250--300 students that take this course at Macalester each year. 
+%	}	
+
+\end{itemize}
+
+
+\textbf{Other Writing}
+\begin{itemize}
+\item[2.] \textbf{Grinde, K.}$^{+}$, Theobold,  A.$^{+}$, \& Myint,  L$^{+}$. ``Beyond Achievement: Access, Identity, and Power in Alternative Grading." \textit{Grading for Growth} (2024): \href{https://gradingforgrowth.com/p/beyond-achievement?r=2ny4pq&utm_campaign=post&utm_medium=web}{[link]}.
+%	\annotateItem{
+%	This piece is a guest post for \textit{Grading for Growth}, a popular blog on the topic of alternative grading written by Robert Talbert and David Clark (authors of the book of the same name). 
+%	Our post explores the four dimensions of equity (access, achievement, identity, and power) posed by Dr. Rochelle Gutierrez \href{https://www.todos-math.org/assets/documents/TEEMv1n1excerpt.pdf}{[link]} as relates to the topic of grading, and stems from a 2023 JSM invited session in which the three of us presented (see International Talk [3]).
+%	%The writing was a truly collaborative endeavor between the three authors.
+%	Although not formally peer reviewed as in the case of the Referred Journal Articles above, this post was reviewed by blog authors Drs. Talbert and Clark prior to publishing. 
+%	Since its publication, the post has been very well received. 
+%	In May 2024, it was named fourth on the list of ``Top 5" \textit{Grading for Growth} posts, based on reader engagement \href{https://open.substack.com/pub/gradingforgrowth/p/the-top-5-sort-of-posts-at-grading?r=2ny4pq&utm_campaign=post&utm_medium=email}{[link]}.
+%	In December 2024, it was also named second on the list of top three guest posts of the year (see \href{https://gradingforgrowth.com/p/grading-for-growth-a-look-back-and?utm_campaign=post&utm_medium=web}{``Grading For Growth: A look back and a look ahead"}).
+%	}
+	
+\item[1.] \textbf{Grinde, K. }``Statistical Inference in Admixed Populations." Doctoral dissertation, University of Washington.  2019. \href{https://digital.lib.washington.edu/researchworks/handle/1773/44730?show=full}{[link]}.\\
+%	\annotateItem{
+%	This is my doctoral dissertation. As of \today, it has been cited 3 times. 
+%	Two of these citations are in reference to ideas now published in Refereed Article [15]. 
+%	The third is in reference to ideas now published in Refereed Article [7]. 
+%	}
+\end{itemize}
+
+%\textbf{Acknowledged Contributions}
+%\begin{itemize}
+%\item[3.] Seth's IBD mapping paper
+%\item[2.] Ziyatdinov et al. ``Genotyping, sequencing, and analysis of 140,000 adults from Mexico City." \textit{Nature} 622 (2023): 784--793. \href{https://doi.org/10.1038/s41586-023-06595-3}{[link]}
+%\item[1.] Jimenez et al. ``Evaluating study design rigor in preclinical cardiovascular research: a replication study." Peer-reviewed preprint available here: \href{https://doi.org/10.7554/eLife.91498.1}{[link]}.\\
+%\end{itemize}
+
+%\section{MANUSCRIPTS IN PROGRESS}
+%\begin{itemize}
+%\item[1.] 
+%%%\item telomere admixture mapping
+%%\item spurious assoc admixture mapping paper or population structure adjustment in admixture mapping paper
+%%\item semi-parametric inference/variable importance in GWAS
+%%\item STEAMcpp paper 
+%\end{itemize}
+
+
+
+
+\section{SOFTWARE \& APPLICATIONS} 
+
+%\begin{itemize}
+%
+%\item[*] \textit{denotes an undergraduate student, as above}\\
+%\item[+] \textit{denotes joint first authors, as above }
+%\end{itemize}
+
+\begin{itemize}
+\item[4.] Chen, T.*$^{+}$, McClure, K.*$^{+}$, Ohr, S.*$^{+}$, Huang, Z., \& \textbf{Grinde, K.} 
+``\texttt{STEAM}: Significance Threshold Estimation for Admixture Mapping." 
+R package version 0.2.0 (2024): \href{https://github.com/GrindeLab/STEAM}{[link]}.
+%	\annotateItem{
+%	This is an updated release of the \texttt{STEAM} package (see below) to reflect new contributions from Macalester student collaborators (some of whom are now alums): Tina Chen, Katelyn McClure, Sydney Ohr, and Zuofu Huang. 
+%	Version 0.2.0 integrates Zuofu's computational improvements using \texttt{Rcpp} into the original \texttt{STEAM} package (see \texttt{STEAMcpp}, below). 
+%	Throughout Summer 2025, Tina, Katelyn, and Sydney worked on additional improvements to the package including updated documentation, bug fixes, and updated formatting to reflect \textit{Bioconductor} submission requirements. 
+%	We will officially ``release" version 0.3.0 in the near future; in the meantime, these updates can be found in our GitHub repository as ``feature" branches.  
+%	Future goals include submitting to \textit{Bioconductor}.
+%	}
+	
+\item[3.] Hayir, A.*, \& \textbf{Grinde, K.} ``Interactive Circos Tool." 
+R \texttt{shiny} application (2022): \href{https://kblcircosgraph.shinyapps.io/circos/}{[link]}.
+%	\annotateItem{
+%	This \texttt{shiny} app is an interactive visualization presenting results from our paper ``Circular RNA Profiles in Viremia and ART Suppression Predict Competing circRNA– miRNA–mRNA Networks Exclusive to HIV-1 Viremic Patients" (Referred Journal Article [12]). 
+%	I supervised Macalester student AK Hayir in the creation of this app.
+%	}
+	
+\item[2.] Huang, Z.*, \& \textbf{Grinde, K.} 
+``Significance Threshold Estimation for Admixture Mapping using \texttt{Rcpp}." 
+R package (2020): \href{https://github.com/GrindeLab/STEAMcpp}{[link]}.
+%	\annotateItem{
+%	This is a faster version of the \texttt{STEAM} package (see below), using \texttt{Rcpp} to integrate R and C++ code and speed up the computations for one of the key functions in the package.
+%	%\textcolor{red}{say more about time improvements}
+%	The package was created in collaboration with Macalester student Zuofu Huang (now alum and PhD student at the University of Minnesota Department of Biostatistics). 
+%	It was first released as a separate R package on GitHub, via the repository linked above, but has since been incorporated into updated versions of \texttt{STEAM} (0.2.0+) released at \href{https://github.com/GrindeLab/STEAM}{https://github.com/GrindeLab/STEAM}.
+%	%available via GitHub, a popular website for version control and collaborative software development, and one of the primary sites for sharing code/software with others.
+%	} 
+
+\item[1.] \textbf{Grinde, K.} ``\texttt{STEAM}: Significance Threshold Estimation for Admixture Mapping." 
+R package (2019): \href{https://github.com/kegrinde/STEAM}{[link]}.\\
+%	\annotateItem{
+%	This is an open-source R package that implements the methods proposed in Refereed Journal Article [7].  
+%	Although the journal article was a collaborative endeavor, I was the sole contributor to this R package. 
+%	The package was first released on GitHub at \href{https://github.com/kegrinde/STEAM}{https://github.com/kegrinde/STEAM}; see above (Software \& Applications [2] and [4]) for information about updated releases. 
+%	Unfortunately, there is not an easy way to track package installations from GitHub, but the number of citations to Referred Journal Article [7] provides a partial indication of package usage. 
+%	} 
+	
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{RESEARCH \\TALKS}
+
+\textbf{Presentations at International or National Venues}
+
+\begin{itemize}
+\item[11.] Opportunities and challenges of working with (big) genetic data. Big Data Summer Institute Concluding Symposium, University of Michigan Department of Biostatistics, Ann Arbor, MI. 2025. %\begin{footnotesize}\textbf{(Invited, Keynote)}\end{footnotesize}} %
+\annotate{Invited, Keynote}
+%	\annotateItem{This was an invited keynote address at the Concluding Symposium for the University of Michigan Department of Biostatistic's Big Data Summer Institute, a summer research program for undergraduate students that draws participants from across the country. The one-day symposium features talks by the research students as well as invited faculty speakers and is open to the public.}
+	
+\item[10.] Adjusting for principal components can induce spurious associations in genome-wide association studies in admixed populations. 
+International Genetic Epidemiology Society Annual Meeting. Virtual. 2021. %\textbf{(Presentation Award Winner)}
+%	\annotateItem{
+%	This ``lightning" talk, presenting the ideas now published in Refereed Journal Article [15], was awarded a second place presentation award at the 2021 International Genetic Epidemiology Society Annual Meeting. (See \textit{Honors \& Awards}, below.)
+%	}
+	
+\item[9.] Deriving significance thresholds for genome-wide admixture mapping studies. 
+International Genetic Epidemiology Society Annual Meeting. San Diego, CA. 2018. 
+
+\item[8.] Controlling for multiple testing in genome-wide admixture mapping studies. 
+Western North American Region of the International Biometric Society Meeting. Edmonton, Canada. 2018. %\textbf{(Presentation Award Winner)}
+%	\annotateItem{
+%	This talk, presenting the ideas now published in Refereed Journal Article [7], was awarded a ``Distinguished Oral Presentation Award" at the 2018 Western North American Region of the International Biometric Society Meeting. (See \textit{Honors \& Awards}, below.)
+%	}
+	
+\item[7.] Admixture mapping: controlling for false positives in the presence of population structure. 
+American Society of Human Genetics Annual Meeting. Orlando, FL. 2017. 
+\annotate{Poster}
+
+\item[6.] Generalizing genetic risk scores from Europeans to Hispanics/Latinos. 
+International Genetic Epidemiology Society Annual Meeting. Cambridge, United Kingdom. 2017. 
+\annotate{Poster}
+
+\item[5.] Illustrating, quantifying, and correcting for bias in post-hoc analysis of gene-based rare variant tests of association. 
+Joint Statistical Meetings. Seattle, WA. 2015.
+\annotate{Poster}
+
+\item[4.] A hierarchical approach to SNP-set analysis: an evaluation of power and type I error of gene-based tests of association after pathway-based analysis. 
+Genetic Analysis Workshop 19. Vienna, Austria. 2014.
+
+\item[3.] Accounting for variability in paleoecological mixing models. 
+National Conference for Undergraduate Research. Lexington, KY. 2014.
+
+\item[2.] What now? Post-hoc approaches for gene-based, rare variant tests of association. 
+American Society of Human Genetics Annual Meeting. Boston, MA. 2013. 
+\annotate{Poster}
+
+\item[1.] General approaches for combining multiple rare variant association tests provide improved power across a wider range of genetic architectures. 
+American Society of Human Genetics Annual Meeting. Boston, MA. 2013. 
+\annotate{Poster}
+
+\end{itemize}
+
+
+
+
+
+\textbf{Presentations at Regional or Local Venues} 
+
+\begin{itemize}
+
+\item[\textcolor{gray}{25.}] \textcolor{gray}{UPCOMING: 
+MSCS Colloquium, Department of Mathematics, Statistics, and Computer Science, St. Olaf College. (September 2025.) 
+\annotate{Invited}}
+
+\item[24.] Using PCA to infer and adjust for population structure: What can go wrong? 
+Twin Cities Pop/EvoGen Group, University of Minnesota. Minneapolis, MN. 2024. 
+\annotate{Invited}
+
+\item[23.] Statistical methods for genetic studies in admixed populations. 
+Department of Mathematics and Statistics, Carleton College. Northfield, MN. 2023. 
+\annotate{Invited}
+
+\item[22.] Statistical genetics in populations with mixed ancestry. 
+Department of Mathematics, Creighton University. Omaha, NE. 2022. 
+\annotate{Invited}
+
+\item[21.] What's our work: statistical genetics. 
+Department of Mathematics, Statistics, and Computer Science, Macalester College. Saint Paul, MN. 2021.
+
+\item[20.] Genome-wide significance thresholds for admixture mapping studies.
+Interdisciplinary Biostatistics Training in Genetics and Genomics Journal Club, University of Minnesota. Virtual. 2021. 
+\annotate{Invited}
+
+\item[19.] Statistical genetics in populations with mixed ancestry. 
+Mathematics Colloquium, Augsburg University. Virtual. 2020. 
+\annotate{Invited}
+
+\item[18.] Statistical methods for genome-wide admixture mapping studies. 
+Division of Pediatric Epidemiology and Clinical Research, University of Minnesota. Virtual. 2020. 
+\annotate{Invited}
+
+\item[17.] Statistical genetics in populations with mixed ancestry. 
+Department of Mathematics, Statistics, and Computer Science, Macalester College. Saint Paul, MN. 2019. 
+\annotate{Invited}
+
+\item[16.] Statistial inference in populations with mixed ancestry. 
+Department of Mathematics, Statistics, and Computer Science, St. Olaf College. Northfield, MN. 2019. 
+\annotate{Invited}
+
+\item[15.] Adjusting for principal components can induce spurious associations in genome-wide association studies. 
+Genetic Analysis Center, University of Washington. Seattle, WA. 2019. 
+\annotate{Invited}
+
+\item[14.] Adjusting for population structure in genetic association studies: new insights and the potential pitfalls of using PCs. 
+Population Genetics (PopGen) Lunch, University of Washington. Seattle, WA. 2019.  
+\annotate{Invited}
+
+%\item Adjusting for population structure in genetic associaiton studies. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2019.
+
+%\item Admixture mapping in TOPMed. Harris/Browning Joint Lab Meeting. Seattle, WA, 2019. 
+
+%\item Controlling for population structure in admixture mapping studies. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2018.
+
+\item[13.] %\textbf{Grinde, K.}
+Statistical inference in populations with mixed ancestry. 
+Biostatistics Colloquium, University of Washington. Seattle, WA. 2018.  
+\annotate{Invited}
+
+\item[12.] Admixture mapping in TOPMed. 
+NHLBI Trans-Omics for Precision Medicine (TOPMed) Kidney Working Group. Virtual. 2018.  
+
+%\item %\textbf{Grinde, K.} 
+%Statistical inference in admixed populations. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2018.
+
+\item[11.] %\textbf{Grinde, K.} 
+Admixture mapping: controlling for false positives in the presence of population structure. 
+Biostatistics Department Retreat, University of Washington. Seattle, WA. 2017. 
+\annotate{Poster}
+
+%\item %\textbf{Grinde, K.} 
+%Controlling for multiple testing and spurious associations in admixture mapping. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2017.
+
+%\item %\textbf{Grinde, K.} 
+%Estimating genetic maps with large datasets. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2016.
+
+\item[10.] %\textbf{Grinde, K.} 
+Issues in implementation of local ancestry inference on the X chromosome. 
+Omics in Latinos Genetic Analysis Center Meeting. Seattle, WA. 2015.
+
+\item[9.] %\textbf{Grinde, K.} 
+Estimating genetic maps with large data sets. 
+Biostatistics Department Retreat, University of Washington. Blaine, WA. 2015. 
+\annotate{Poster}
+
+%\item %\textbf{Grinde, K.} 
+%Local ancestry inference on the X chromosome. Statistical Genetics Seminar, University of Washington. Seattle, WA, 2015.
+
+%% remove?%%
+\item[8.] %\textbf{Grinde, K.}, Green, A., Valcarcel, A., \& Westra, J. 
+Identifying and correcting for bias in post-hoc ranking strategies: an application to gene-based rare variant tests of association. 
+Dordt College Summer Seminar. Sioux Center, IA. 2014.
+
+%% remove?%%
+\item[7.] %\textbf{Grinde, K.}, \& Valcarcel, A. 
+A hierarchical approach to SNP-set analysis: evaluation of power and type I error of gene-based tests of association after pathway-based analysis. 
+Dordt College Summer Seminar. Sioux Center, IA. 2014.
+
+\item[6.] %\textbf{Grinde, K.}, Green, A., Valcarcel, A., \& Westra, J. 
+Identifying and correcting for bias in post-hoc ranking strategies: an application to gene-based rare variant tests of association. 
+Department of Biostatistics, University of Michigan. Ann Arbor, MI. 2014.
+
+\item[5.] %\textbf{Grinde, K.}, \& Valcarcel, A. 
+A hierarchical approach to SNP-set analysis: evaluation of power and type I error of gene-based tests of association after pathway-based analysis. 
+Department of Biostatistics, University of Michigan. Ann Arbor, MI. 2014.
+
+\item[4.] %\textbf{Grinde, K.} 
+What now? Post-hoc approaches for gene-based, rare variant tests of association. 
+Great Plains R-Users Group Conference. Sioux Center, IA. 2014. 
+\annotate{Poster}
+
+\item[3.] %\textbf{Grinde, K.}, Forbes, N., \& Peterson, N. 
+Accounting for variability in paleoecological mixing models. 
+Natural Sciences and Mathematics Honors’ Day Poster Session, St. Olaf College. Northfield, MN. 2014. 
+\annotate{Poster}
+
+%\item %\textbf{Grinde, K.}, Forbes, N., \& Peterson, N. 
+%Accounting for variability in paleoecological mixing models. St. Olaf Center for Interdisciplinary Research. Northfield, MN. 2014.
+
+\item[2.] %\textbf{Grinde, K.}, Tillman, M., Barnard, J., Hirst, A., \& Mangold, K. 
+Predicting donors at Red Cross blood drives. 
+Mathematics, Statistics, and Computer Science Colloquium, St. Olaf College. Northfield, MN. 2014.
+
+\item[1.] %\textbf{Grinde, K.}, Tillman, M., Barnard, J., Hirst, A., \& Mangold, K. 
+Predicting donors at Red Cross blood drives. 
+American Red Cross. Saint Paul, MN. 2014.%\\
+
+%%%% remove this one eventually %%%%%
+%\item %\textbf{Grinde, K.}, Forbes, N., \& Peterson, N. 
+%Variability in mixing models in paleoecology. St. Olaf College Statistics. Northfield, MN, 2013.
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Student Presentations of Joint/Supervised Work}
+
+\begin{itemize}
+
+%\item Chen, T. Admixture mapping \& power. Macalester MSCS 5 Minute Honors Talks. Saint Paul, MN. 2024.
+
+\item[11.] Ohr, S. 
+Significance threshold estimation for admixture mapping (STEAM), an R package. 
+Midstates Consortium Undergraduate Research Symposium. St. Louis, MO. 2024. 
+\annotate{Poster}
+  %\annotateItem{Travel funded by Macalester's Midstates Consortium membership dues.}
+
+\item[10.] Chen, T. 
+Evaluating the power of admixture mapping: a literature review and simulation study. 
+StatFest. New York, NY. 2024. 
+\annotate{Poster}
+  %\annotateItem{Travel funded by Macalester MSCS Department (\$100), Academic Programs (\$350), and start-up funds.}
+
+\item[9.] McClure, K. and Ohr, S. 
+Significance threshold estimation for admixture mapping (STEAM), an R package. 
+Summer Research Showcase, Macalester College. Saint Paul, MN. 2024. 
+\annotate{Poster}%(Poster)
+
+\item[8.] Chen, T. 
+Evaluating the power of admixture mapping: a literature review and simulation study. 
+Summer Research Showcase, Macalester College. Saint Paul, MN. 2024. 
+\annotate{Poster}
+
+%\item Chen, T.,  McClure, K., and Ohr, S. Admixture Mapping: Grinde Lab 2024. 
+%Macalester MSCS Summer Research Gathering. Saint Paul, MN. 2024.  (x2)
+
+%\item Barragan, S.* Statistical genetics for pediatric leukemia: Characterizing racial disparities in pediatric acute lymphoblastic leukemia. 
+%MSCS Honors Defense. 2022. 
+
+\item[7.] Barragan, S.  
+Genetic ancestry, gene expression, and survival in children with B-ALL. 
+Pediatric Research, Education, \& Scholarship Symposium. Minneapolis, MN. 2022. 
+\annotate{Poster}
+
+%\item Barragan, S.* "Statistical genetics for pediatric leukemia: Characterizing racial disparities in pediatric B-cell acute lymphoblastic leukemia." 
+%MSCS Capstone Days. 2022. 
+
+\item[6.] Barragan, S.  
+Gene expression differences by race and genetic ancestry in B-cell acute lymphoblastic leukemia. 
+American Society of Human Genetics Annual Meeting. Virtual. 2021. 
+\annotate{Poster}
+
+\item[5.] Barragan, S.  
+Characterizing racial disparities in pediatric cancer: ancestry, gene expression, and survival disparities in B-cell acute lymphoblastic leukemia. 
+Underrepresented Students in STEM Symposium. Minneapolis, MN. 2021. 
+\annotate{Poster}
+
+\item[4.] Barragan, S.  
+Statistical methods for pediatric leukemia: gene expression \& ancestry in B-cell acute lymphoblastic leukemia. 
+Summer Research Showcase, Macalester College. Saint Paul, MN. 2021. 
+\annotate{Poster}
+
+%\item Huang, Z.* "Estimating significance thresholds and the number of generations since admixture in admixture mapping studies." MSCS Honors Defense. 2021. 
+
+\item[3.] Huang, Z. 
+Statistical methods for genetic association studies in populations with mixed ancestry. 
+Midstates Consortium Undergraduate Research Symposium. Virtual. 2020.
+
+\item[2.] Huang, Z. 
+Using Rcpp to speed up tool for controlling for multiple testing in genetic studies. 
+Electronic Undergraduate Statistics Research Conference. Virtual. 2020.
+
+\item[1.] Huang, Z. 
+Statistical methods for genetic association studies in populations with mixed ancestry. 
+Summer Research Showcase, Macalester College. Virtual. 2020. 
+\annotate{Poster} \\
+
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{TEACHING, OUTREACH, \& MENTORING  TALKS}
+
+\textbf{Presentations at International or National Venues}
+
+%\begin{benumerate}{4} % increase this when adding talks
+\begin{itemize}
+
+\item[5.] Career Q\&A with 2025 Big Data Summer Institute students. University of Michigan Department of Biostatistics, Ann Arbor, MI. 2025. \annotate{Invited}
+%	\annotateItem{Following my keynote address at the 2025 Big Data Summer Institute Concluding Symposium (see National Research Talk [11]), I met with undergraduate students the next morning for a breakfast "Question \& Answer" session related to my career journey. Topics ranged from applying to graduate school to working at a liberal arts college.}
+
+
+\item[4.] Panel discussion on academic careers and job search. 
+American Statistical Association Section on Statistics in Genomics and Genetics. Virtual. 2023. 
+\annotate{Invited}
+
+\item[3.] Rethinking (and then rethinking some more) grading systems in introductory and advanced statistics courses. 
+Joint Statistical Meetings. Toronto, Canada. 2023. 
+\annotate{Invited}
+%	\annotateItem{
+%	This talk was one of four in an invited session entitled ``Power in the Classroom: From Helping Students Play the Game to Helping Students Change the Game" at the 2023 Joint Statistical Meetings. 
+%	The session was sponsored by the American Statistical Association's Justice, Equity, Diversity, and Inclusion (JEDI) Outreach Group. 
+%	Ideas from this talk have since been published as an open education resource (see \textit{Open Education Resources} [2]) and a guest post on a popular blog about grading (see \textit{Other Writing} [2]).
+%	}
+
+\item[2.] Time management, research strategy, and healthy habits for graduate students. 
+American Statistical Association Section on Statistics in Genomics and Genetics. Virtual. 2021. 
+\annotate{Invited}
+
+\item[1.] Graduate programs in (bio)statistics. 
+Electronic Undergraduate Statistics Research Conference. Virtual. 2020. 
+\annotate{Invited}
+
+%\end{benumerate}
+\end{itemize}
+
+
+\textbf{Presentations at Regional or Local Venues}
+
+\begin{itemize}
+
+\item[\textcolor{gray}{23.}] \textcolor{gray}{UPCOMING: 
+Center for Interdisciplinary Research, St. Olaf College. (September 2025.) 
+\annotate{Invited}}
+
+\item[22.] %Heysse, K. and \textbf{Grinde, K.} 
+\LaTeX Advanced Workshop. 
+Macalester College. St. Paul, MN. 2024. % my contribution: tips for integrating R and LaTeX
+
+\item[21.] Teaching careers roundtable. 
+BIOS 834: Pedagogical Methods for Biostatistics Courses, University of Michigan.  Virtual.  2024. 
+\annotate{Invited}
+
+\item[20.] Career discussion.
+Gender Minorities in Math and Statistics (GeMMS), Carleton College. Northfield, MN. 2024. 
+\annotate{Invited}
+
+\item[19.] Alternative grading strategies. 
+MSCS Inclusive Pedagogy Summit, Macalester College. St. Paul, MN. 2023.  
+\annotate{Invited}
+
+\item[18.] Faculty panel.  
+Preparing Future Faculty Practicum, University of Minnesota. Virtual. 2023. 
+\annotate{Invited}
+
+\item[17.] Tips and tricks with R/RStudio.  
+MSCS Student Advisory Board Skill-Building Sessions, Macalester College. St. Paul, MN. 2023. 
+\annotate{Invited}
+
+\item[16.] Open Educational Resources and textbook affordability: Macalester environmental scan and survey results.  
+Jan Serie Center for Scholarship and Teaching, Macalester College. St. Paul, MN. 2023.
+
+%\item Keynotes: studies, statistics, and serial killers. The Abstract Podcast. Virtual. 2021. \textbf{(Invited)}
+
+\item[15.] Inclusivity in teaching panel. 
+Radical MacACCESS, Macalester College. Virtual. 2021. 
+\annotate{Invited}
+
+\item[14.] Pathways into science outreach panel. 
+Hutch United Outreach Committee \& Wallin Education Partners Program, Fred Hutchinson Cancer Research Center. Virtual. 2021. 
+\annotate{Invited}
+
+\item[13.] Genetic testing: how does it work? (a statistician's perspective). 
+Department of Mathematics, Statistics, and Computer Science, St. Olaf College. Northfield, MN. 2019. 
+\annotate{Invited}
+
+\item[12.] (Bio)statistics PhD programs: application tips and research opportunities. 
+STAT 284: Biostatistics, St. Olaf College. Northfield, MN. 2019. 
+\annotate{Invited}
+
+\item[11.] Fellowships, scholarships, and grants. 
+Biostatistics Student Seminar, University of Washington. Seattle, WA. 2018.
+
+\item[10.] %\textbf{Grinde, K.} 
+Admixture mapping: controlling for false positives in the presence of population structure. 
+StatNorthwest. Seattle, WA. 2018. 
+\annotate{Poster}%(Poster)
+
+\item[9.] Graduate student panel. 
+StatNorthwest. Seattle, WA. 2018. 
+\annotate{Invited}
+
+\item[8.] %\textbf{Grinde, K.} , \&  Williamson, B. 
+Travel grants and conference funding. 
+Department of Biostatistics, University of Washington. Seattle, WA. 2017.
+
+\item[7.] %\textbf{Grinde, K.} 
+What is Biostatistics? 
+Forest Ridge School of the Sacred Heart Science Research Class. Bellevue, WA. 2017.
+
+\item[6.] %\textbf{Grinde, K.}, Gasca, N., \& Plantinga, A. 
+NSF Graduate Research Fellowship Program information session. 
+Department of Biostatistics, University of Washington. Seattle, WA. 2017.
+
+\item[5.] %\textbf{Grinde, K.} 
+What is Biostatistics? 
+7th and 8th Grade STEM PREP Project, University of Washington. Seattle, WA. 2017. %Distance Learning Center \& University of Washington
+
+\item[4.] %Gasca, N., \textbf{Grinde, K.}, \& Meisner, A. 
+Applying for outside funding opportunities. 
+Biostatistics Student Seminar, University of Washington. Seattle, WA. 2016.
+
+\item[3.] Graduate and professional student panel. 
+Healthcare Exploration for Youth Program, University of Washington. Seattle, WA. 2016. 
+\annotate{Invited}
+
+\item[2.] Graduate and professional student panel. 
+Healthcare Exploration for Youth Program, University of Washington. Seattle, WA. 2015. 
+\annotate{Invited}
+
+\item[1.] %\textbf{Grinde, K.}, \& Green, A. 
+What now? Post-hoc approaches for gene-based, rare variant tests of association. 
+Inter-Disciplinary Explorations Across the Sciences. Sioux Center, IA. 2014.  
+\annotate{Poster}\\%(Poster)
+
+%\end{benumerate}
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{GRANTS}
+
+\textbf{Funded by National Organizations}
+\begin{itemize}
+\item[3.] Safo, S. and \textbf{Grinde, K.} ``Conference: STATGEN25."  \hfill 2025 \\ 
+Amount: \$19,104 \\ %Amount: \$49,440,  \\
+Funder: National Science Foundation (Program No. 21-541)
+%	\annotateItem{
+%	This grant will provide travel awards to support the participation of students and early career researchers in the STATGEN 2025 conference. 
+%	STATGEN 2025 is the second annual conference for the American Statistical Association Section on Statistics in Genomics and Genetics.
+%	It took place May 21--23, 2025 at the University of Minnesota with nearly 300 attendees. 
+%	My co-author on this grant proposal, Sandra Safo, and I were co-chairs of the Local Organizing Committee for the conference.
+%	}
+	
+\item[2.] Graduate Research Fellowship \hfill 2016--2019 \\
+Amount: \$138,000 \\
+Funder: National Science Foundation (Program No. 24-591)
+
+\item[1.] Statistical Genetics Training Grant \hfill 2015--2016  \\
+Amount: \$22,476 \\
+Funder: National Institutes of Health (T32 Training Grant) %\\
+\end{itemize}
+
+\textbf{Funded by Local Organizations} 
+\begin{itemize}
+\item[6.] Collaborative Summer Research Award \hfill 2024 \\
+Amount: \$13,461\\
+Funder: Macalester College
+
+% add unncessful Young Researchers application 2024
+
+\item[5.] Article Processing Charge Grant \hfill 2022 \\ %\begin{footnotesize}(for Refereed Journal Article [12])\end{footnotesize} \hfill 2022 \\ 
+Amount: \$1,466 \\
+Funder: Macalester College Dewitt Wallace Library Open Access Fund
+  \annotateItem{for Refereed Journal Article [12]}
+  
+%\item NIH Supplement for Freddy
+
+%\item Mann-Hill Fellowship for Freddy
+
+\item[4.] Collaborative Summer Research Award  \hfill 2020 \\ %5,500
+Amount:  \$5,500 \\
+Funder: Macalester College
+
+\item[3.] Travel Grant  \hfill 2018 \\ 
+Amount: \$300 \\
+Funder: University of Washington Graduate and Professional Student Senate 
+
+\item[2.] Conference Travel Award \hfill 2018 \\
+Amount: \$1,000 \\
+Funder: University of Washington (UW) Department of Biostatistics
+
+\item[1.] Travel Award \hfill 2017 \\
+Amount: \$500 \\
+Funder: UW Graduate School Fund for Excellence and Innovation \\
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{HONORS \& \\ AWARDS}
+
+\textbf{Professional Awards and Recognition}
+\begin{itemize}
+
+\item Poster/Lightning Talk Award, 2nd Place   \hfill 2021 \\
+International Genetic Epidemiology Society Annual Meeting
+	\annotateItem{for International Research Talk [10]}
+
+\item Top Cited Article  \hfill 2021 \\
+Genetic Epidemiology Journal
+	\annotateItem{for Refereed Journal Article [6]}
+
+\item Thomas R. Fleming Excellence in Biostatistics Award \hfill 2019 \\   
+University of Washington Department of Biostatistics
+%	\annotateItem{highest honor awarded to a graduating Ph.D. student}
+
+\item Gertrude M. Cox Scholarship \hfill 2018 \\ American Statistical Association
+%	\annotateItem{This is a competitive national scholarship for women pursuing graduate 
+%	studies in statistics. Each year, two scholarship are awarded: one to a woman 
+%	in the early stages of her graduate studies and another to someone who is closer 
+%	to the end of her program. I received the latter.}
+
+\item Dorothy L. Simpson Leadership Award \hfill 2018 \\ Achievement Rewards for College Scientists Foundation, Seattle Chapter
+%	\annotateItem{I was the inaugural recipient of this award recognizing one 
+%	Seattle-based Achievement Rewards for College Scientists (ARCS) Fellow for their 
+%	leadership and community service.}
+
+\item Excellence in Teaching Award  \hfill 2018 \\
+University of Washington Department of Biostatistics
+
+\item Distinguished Oral Presentation Award  \hfill 2018 \\ Western North American Region of the International Biometric Society  %\hfill 2018 
+	\annotateItem{for International Research Talk [8]}
+
+\item Achievement Rewards for College Scientists (ARCS) Fellowship \hfill 2014--2017 \\
+ARCS Foundation, Seattle Chapter
+
+\item Donovan J. Thompson Award  \hfill 2016 \\
+University of Washington Department of Biostatistics %\\
+	\annotateItem{for top performance on PhD qualifying exams}
+%	\annotateItem{An award recognizing the student who earned the best combined score 
+%	on two Ph.D. qualifying exams (one covering theory and the other covering application).}
+
+\end{itemize}
+
+
+\textbf{Undergraduate Awards}
+\begin{itemize}
+
+\item Honorable Mention, Undergraduate Research Project Competition \hfill 2014  \\
+Consortium for Advancement of Undergraduate Statistics Education
+
+\item Honorable Mention, Graduate Research Fellowship Program  \hfill 2014 \\
+National Science Foundation
+
+\item Statistically Significant Award \hfill 2014 \\
+St. Olaf Department of Mathematics, Statistics, and Computer Science 
+%	\annotateItem{Awarded by the Department of Mathematics, Statistics, and Computer Science 
+%	to recognize one graduating senior for ``significance" in statistics.}
+
+\item Buntrock Scholarship \hfill 2010--2014 \\
+St. Olaf College 
+	\annotateItem{academic scholarship}
+%	\begin{itemize} \vspace{-0.2cm}
+%	\item[] 
+%	\begin{footnotesize}(top academic scholarship at St. Olaf) \end{footnotesize}
+%	\end{itemize} \vspace{-0.1cm}
+
+\item Service Leadership Scholarship \hfill 2010--2014 \\
+St. Olaf College 
+
+\item Phi Beta Kappa National Honor Society \hfill 2013 
+
+\item Pi Mu Epsilon National Honor Society \hfill 2013 %\\
+  \annotateItem{mathematics honor society}
+
+%\item United States Presidential Scholar Semifinalist \hfill 2010
+
+\end{itemize}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SERVICE}  
+
+\textbf{Professional Service}
+	\begin{itemize}
+	
+	\item American Statistical Association Section on Statistics in Genomics and Genetics
+		\begin{itemize}
+		
+		\item Proposal Review Committee, STATGEN 2026  \hfill 2025
+		
+		\item Co-Chair, STATGEN 2025 Local Organizing Committee \hfill 2024--2025
+			%\annotateItem{This is the annual conference for ASA SSGG. 
+			%Host sites/committees are chosen via a competitive application process. 
+			%Link: https://www.sph.umn.edu/events-calendar/statgen-2025/
+			%}
+		
+		\item Invited Panelist, ASA SSGG Webinar Series \hfill 2021 \& 2023 
+			\annotateItem{see National Teaching/Outreach/Mentoring Talks [2] and [4]}
+		%	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+		%	\item[] \begin{footnotesize}(see National Teaching/Outreach/Mentoring Talks [2] and [4]) \end{footnotesize}
+		%	\end{itemize} %\vspace{-0.1cm}
+		
+		\item Contributor, ASA SSGG Quarterly Newsletter \href{https://higherlogicdownload.s3.amazonaws.com/AMSTAT/6d11267c-5862-4c31-9f1e-f5a52a11ea5f/UploadedImages/Newsletters/Newsletter_SSGG_2021Sept_final.pdf}{[link]} \hfill 2021
+			\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+			\item[]  \begin{footnotesize}(``Reflections and Tips from Recent Grads on the Job Search Experience") \end{footnotesize}
+			%\item[] also contributed to Summer 2025 newsletter: 
+			\end{itemize} %\vspace{-0.1cm}
+		
+		\end{itemize}
+		
+	%\item Review Editor for \textit{Frontiers in Genetics}   \hfill 2021--present \\ (Statistical Genetics and Methodology section)
+	\item \textit{Frontiers in Genetics} Statistical Genetics and Methodology Section
+	  \begin{itemize}
+	  \item Community Reviewer \hfill 2025--present
+	  \item Review Editor \hfill 2021--2025
+	  \end{itemize}
+	
+	\item Ad Hoc Peer Reviewer for \textit{Cell Genomics}, \textit{GENETICS},  \textit{Nature }  \hfill 2018--present \\ \textit{Communications}, \textit{PLOS Computational Biology},  \textit{Scientific} \textit{Reports}, \\ and \textit{SIAM Undergraduate Research Online} 
+	 		% Cell Genomics: 2024
+			% Nature Communications: 2024
+			% GENETICS: 2020 (effective sample size), 2020 (Multiple Testing)
+			% PLOS Comp Bio: 2019--2020
+			% scientific reports: 2018
+			% SIURO: 2019--2020
+%	 	\begin{itemize}
+%		\item[] \begin{footnotesize} I am invited to review many more manuscripts than time/capacity permits. Recent examples of invitations that I unfortunately had to decline include:  \textit{PLOS Computational Biology} (2025), Human Genomics (2025), Computational and Structural Biotechnology Journal (2025), BMC Neurology (2025), \textit{Frontiers in Genetics} (2025, 2024$\times$7), \textit{Human Genetics and Genomics Advances} (2024), \textit{Genes} (2024), \textit{Nature Genetics} (2024), \textit{Scientific Reports} (2025 x 2, 2024$\times$5), \textit{Communications Biology} (2024), \textit{BMC Genomics} (2024), \textit{BMC Infection Diseases} (2024), \textit{Bioinformatics} (2024),  \textit{BMC Psychiatry} (2024), \textit{Journal of Statistics and Data Science Education} (2024), \textit{BMC Gastroenterology} (2024), \textit{American Journal of Human Genetics} (2023)
+%		\end{footnotesize}
+%		\end{itemize}
+	\end{itemize}
+	
+%\newpage
+\textbf{Macalester College}
+	\begin{itemize} %\itemsep -2pt
+	
+	\item Service to the College
+		\begin{itemize}
+		
+		\item Opening Convocation Committee \hfill 2025--present
+		
+		\item Co-Coordinator, Serie Center Reading Group  \hfill 2025
+			\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+			\item[] \begin{footnotesize}(Book: \textit{Grading for Growth} by D. Clark and R. Talbert) \end{footnotesize}
+			\end{itemize} 
+		
+		\item Faculty Liaison to Admissions \hfill 2022--2024 %change to 2024 since I'm still sending out welcome emails?
+		
+		\item AAC\&U Open Educational Resources Institute Team \hfill 2022--2023
+		
+		\item Mid-Course Interview Scribe \hfill \sout{2020}*, 2021 
+			\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+			\item[] \begin{footnotesize} (*canceled due to COVID-19) \end{footnotesize}
+			\end{itemize}
+		
+		%\item Presenter, MSCS at Mac Admitted Students Session \hfill 2021, 
+		
+		%\item \sout{Scribe, Mid-Course Interview} (canceled due to COVID-19)  \hfill 2020 %\\
+		
+		%\item Ad-hoc statistical consultant 
+		
+		\end{itemize}
+		
+	\item Service to the Department of Mathematics, Statistics, and Computer Science
+		\begin{itemize}
+		
+		\item Academic Planning Committee \hfill 2022--2023, 2024--present
+		
+		\item MSCS Honors Seminar Coordinator  \hfill 2021--2023, 2024--present % creator and coordinator
+			%\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm} 
+			%\item[]  \begin{footnotesize}(Co-Creator and Coordinator) \end{footnotesize}
+			%\end{itemize} \vspace{-0.1cm}
+		
+		\item Statistics Tenure Track Search Committee \hfill 2022, 2025  
+			%\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+			%\item[] \begin{footnotesize}(hired Taylor Okonek [2022])\end{footnotesize} 
+			%\end{itemize} 
+			
+		\item Statistics Visiting/Postdoc Search Committee \hfill 2020--2022, 2024--2025
+			%\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm} 
+			%\item[]  \begin{footnotesize}(hired Bryan Martin [2021], James Normington and Laura Lyman [2022], Mutasim [2025]) \end{footnotesize}
+			%\end{itemize} 
+		
+		\item DataFest Judge \hfill 2025
+		
+		\item DataFest Mentor  \hfill 2021, 2022, 2023%, 2025
+		    
+		%\item Contributor, Statistics Allocations Request \hfill 2022
+		
+		%\item Contributor, MSCS Curriculum Revision \hfill 2020--2021
+
+		
+		\end{itemize}
+	\end{itemize}
+
+
+\textbf{University of Washington Department of Biostatistics}
+\begin{itemize} %\itemsep -2pt
+	
+	\item Diversity Committee \hfill 2017--2019
+	
+	\item Women in Biostatistics and Statistics, Leadership Team \hfill 2017--2018
+	
+	\item Admissions Committee \hfill 2017--2018
+	
+	\item Peer Mentoring Program, Founding Member \& Mentor \hfill 2016--2018
+	
+	\item Educational Policy and Teaching Evaluation Committee \hfill 2016--2017
+	
+	\item Biostatistics Outreach Working Group \hfill 2015%\\
+\end{itemize}
+
+
+
+\textbf{St. Olaf College}
+\begin{itemize}
+			
+			\item President, Spanish Honor House \hfill 2013--2014
+			
+			\item Volunteer Teaching Assistant \& Tutor, Northfield Public Schools \hfill 2011--2014
+			
+			%\item Northfield High School, Algebra Teaching Assistant  \hfill 2014
+			
+			%\item Service Leadership Scholar \hfill 2010--2014 % move to awards??
+			
+			\item Orientation Leader, Liberal Arts Program in Seville \hfill 2013 
+			
+			%\item Northfield Middle School, Youth Center \& 7th Grade ESL Math Tutor \hfill 2012 
+			
+			%\item Bridgewater Elementary, 1st \& 3rd Grade Math Teaching Assistant  \hfill 2011 
+			
+			\item Volunteer Teaching Assistant, Wayzata High School\hfill 2011 \\
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{OTHER PROFESSIONAL \\ ACTIVITIES}  	
+
+\hspace{0.1cm}\textbf{Membership in Professional Societies}
+\begin{itemize}	 %\itemsep -2pt
+\item Caucus for Women in Statistics (CWS) \hfill 2018--present
+\item International Genetic Epidemiology Society (IGES) \hfill 2016--present
+\item American Society of Human Genetics (ASHG) \hfill 2013--present
+\item American Statistical Association (ASA) \hfill 2013--present
+\item Western North American Region (WNAR) of the International \hfill 2015--2019 \\  Biometric Society (IBS)  %\\
+\end{itemize}
+	
+\hspace{0.1cm}\textbf{Working Groups}
+%\textbf{Working Groups, Reading Groups, and Workshops} 
+\begin{itemize} %\itemsep -2pt
+%\item Grading for Growth Reading Group \hfill 2025
+%\item Ungrading Reading Group \hfill 2023? 2024?
+%\item Twin Cities Pop/EvoGen Group \hfill 2024
+%\item Racial and Social Justice in Math and CS Pedagogy Workshop  \hfill 2022--present \\ Associated Colleges of the Midwest Faculty Career Enhancement Program
+%\item Data Feminism Reading Group
+\item Kidney Working Group \hfill 2018--2021 \\ Trans-Omics for Precision Medicine Whole Genome Sequencing Program 
+\item Dental Genetics Working Group \hfill 2016 \\ Hispanic Community Health Study/Study of Latinos \\
+\end{itemize}
+						
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ADVISING}	
+
+\textbf{Summer Research Supervisor}
+\begin{itemize}
+\item Tina Chen \hfill 2024
+	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by Local Grant [6]) \end{footnotesize}
+	\end{itemize}
+	
+\item Sydney Ohr \hfill 2024 
+	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by Local Grant [6]) \end{footnotesize}
+	\end{itemize}
+	
+\item Katelyn McClure \hfill 2024 
+	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by start-up funds) \end{footnotesize}
+	\end{itemize}
+
+\item Sofia Barragan \hfill 2021 
+	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by Macalester Mann-Hill Fellowship for Student-Faculty Research) \end{footnotesize}
+	\end{itemize}
+
+\item Zuofu Huang \hfill 2020 
+	\begin{itemize}[leftmargin=-0in] \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by Local Grant [4]) \end{footnotesize}
+	\end{itemize}
+\end{itemize}
+
+
+\textbf{Honors Thesis Advisor}
+\begin{itemize}
+
+\item Tina Chen. Evaluating the power of admixture mapping. \hfill 2024--2025
+
+\item Sofia Barragan. Statistical genetics for pediatric leukemia: char- \hfill 2021--2022 \\ acterizing racial disparities in pediatric acute lymphoblastic leukemia.
+	\begin{itemize}[leftmargin=-0in]  \vspace{-0.2cm}
+	\item[]\begin{footnotesize}(Funded by NIH Research Supplement to Promote Diversity in Health-Related Research) \end{footnotesize}
+	\end{itemize}
+
+\item Zuofu Huang. Estimating significance thresholds and the number  \hfill 2020--2021 \\of generations since admixture in admixture mapping studies. %\\
+
+\end{itemize}
+
+\textbf{Honors Thesis Committee Member}
+\begin{itemize}
+
+\item Paige Tomer.  An investigation into the causes of home field advantage \hfill 2024 \\ in professional soccer. 
+
+\item Erin Franke. Gentrification and crime in the Twin Cities: insights and \hfill 2023 \\ challenges through a statistical lens. 
+
+\item Zhaoheng Li. A comparison of stacking methods to estimate survival  \hfill 2022 \\ using residual lifetime data from prevalent cohort studies.  \\
+
+\end{itemize}
+
+%\textbf{Capstone Coach}
+%\begin{itemize}
+%\item[]\textit{($\times 2$) denotes a double major (i.e., two talks were supervised)}
+%\item Charles Batsaikhan, Ethan Caldecott, Tina Chen, George Koral, Bowman Wingard \hfill 2024--25
+%\item Andrew Nguyen, Kristy Ma, Ting Huang, Vivian Powell, Yiqiao (Orianna) Wang ($\times 2$) \hfill 2022--23
+%\item Chen Yu, Freddy Barragan, Jasper Corey-Flatau, Kate Liberko ($\times 2$), \hfill 2021--22 \\ Isabella Light, Roman Bactol 
+%\item Corey Pieper ($\times 2$), Jack Tan ($\times 2$), Liam Purkey,  Redi Kurti ($\times 2$) \hfill 2020--21
+%\item Blair Cha, Christina Cai, Quinn Rafferty,  Sofia Pozsonyiova \hfill 2019--20 %\\
+%\end{itemize}
+
+%\textbf{Internship Faculty Supervisor}
+%\begin{itemize}
+%\item Joshua Segebre \hfill 2025 %summer
+%\item Isa Chen \hfill 2025 %summer
+%\item Cynthia Zhang \hfill 2023--2024 % summer 2023, fall 2023,  January 2024
+%\item Jingyi Guan \hfill 2023 % summer
+%\item Kristy Ma \hfill 2023 % spring
+%\item Hilary Kaufman \hfill 2022 % fall
+%\item Connie Zhang \hfill 2021 % fall
+%\item Freddy Barragan \hfill 2021 %\\ % spring
+%\end{itemize} 
+
+%\textbf{Other Advising}
+%\begin{itemize}
+%\item Will Brazgel (4 credit preceptorship) \hfill 2023 % spring
+%\item Serena Touqan (2 credit preceptorship) \hfill 2021 % fall
+%\item Jennifer Tan (4 credit preceptorship) \hfill 2020 % spring
+%\end{itemize}
+
+%\textbf{Academic Advisor}
+%\begin{itemize}
+%\item Daniel Deng (secondary) \hfill 2025--present
+%\item Dory Fulcher (secondary) \hfill 2025--present
+%\item Shurui Zhang (primary) \hfill 2025--present
+%\item Alicie Xu (primary) \hfill 2025--present
+%\item Natalia Morales Flores (secondary) \hfill 2025--present
+%\item Sayuri Cumaranatunge (secondary) \hfill 2025--present
+%\item Isa Chen (primary) \hfill 2024--present
+%\item Sydney Ohr (primary) \hfill 2024--present
+%\item Gabriella Nieves (secondary) \hfill 2024--present
+%\item Suweda Said (secondary) \hfill 2024--present
+%\item Colin Mathews (primary) \hfill 2024--present
+%\item Phoebe Pan (primary) \hfill 2024--present
+%\item Sarah Thomson (primary) \hfill 2024--present
+%\item Julia Ross (primary) \hfill 2024--present
+%\item Cynthia Zhang (secondary) \hfill 2023--2025
+%\item Bowman Wingard (primary) \hfill 2023--2025
+%\item Ethan Caldecott (secondary) \hfill 2023--2025
+%\item Alayna Johnson (secondary) \hfill 2022--2025
+%\item Marshall Roll (primary) \hfill 2022--2024
+%\item Will Brazgel (secondary) \hfill 2022--2023
+%\item Michael Nadeau  (primary) \hfill 2022--2023
+%\item Kristy Ma (primary) \hfill 2022--2023
+%\item Eli Ivanov (primary)  \hfill 2022--2023
+%\item Yunyang Zhong (primary)  \hfill 2020--2022 %\\
+%\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{COMPUTING EXPERIENCE} R, highly proficient \\
+%							Unix/Linux, proficient \\
+%							Python, familiar \\
+		
+
+%\section{LANGUAGES} English, fluent/native \\
+%					Spanish, proficient\\
+
+%\section{RESEARCH INTERESTS} Statistical genetics \\
+%							 Biostatistics \\
+			
+\section{LAST UPDATE} \today
+
+\end{resume}
+
+
+\end{document}
+
+
+
+

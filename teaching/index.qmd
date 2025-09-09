@@ -1,0 +1,18 @@
+---
+title: "Teaching"
+listing: 
+  contents: courses.yml
+  type: table
+  fields: [Course, Sections Taught, Semesters Taught, Syllabus, Materials]
+---
+
+At Macalester, I teach classes ranging across all levels of our undergraduate statistics and data science curriculum, from introductory statistics to a capstone course in statistical genetics. 
+Materials for each of these courses are provided in the table below.
+
+Before coming to Macalester, I was an instructor and teaching assistant for various undergraduate and graduate biostatistics courses at the University of Washington. 
+More details about the latter are available on my [CV](../cv/cv.pdf).
+
+<!-- reorganize to include syllabi from all semesters? -->
+
+
+

@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Wondering how to make a website?\nThis website was made with Quarto. Source code and files are available here. I found these two resources particularly helpful in building this site:\n\nCreating your personal website using Quarto by Sam Csik\nFrom Zero to Website in Twenty Minutes with Quarto by Charlotte Wickham"
+  },
+  {
+    "objectID": "resources.html#making-a-website",
+    "href": "resources.html#making-a-website",
+    "title": "Resources",
+    "section": "",
+    "text": "Wondering how to make a website?\nThis website was made with Quarto. Source code and files are available here. I found these two resources particularly helpful in building this site:\n\nCreating your personal website using Quarto by Sam Csik\nFrom Zero to Website in Twenty Minutes with Quarto by Charlotte Wickham"
+  },
+  {
+    "objectID": "resources.html#grad-school",
+    "href": "resources.html#grad-school",
+    "title": "Resources",
+    "section": "Grad School",
+    "text": "Grad School\nThinking about grad school?\nCheck out the slides or recording from a talk I gave about grad school at eUSR 2020."
+  },
+  {
+    "objectID": "resources.html#academic-job-market",
+    "href": "resources.html#academic-job-market",
+    "title": "Resources",
+    "section": "Academic Job Market",
+    "text": "Academic Job Market\nOn the job market?\nRead the September newsletter from the American Statistical Association’s Section on Statistics in Genomics and Genetics (SSGG). I contributed some reflections and tips on applying for jobs at liberal arts colleges, and there is also great advice from others on applying for other types of jobs.\nCheck out this dataset containing salary ranges for statistics faculty positions. I created, and regularly update, this dataset by pulling salary ranges listed on official job postings shared via the ASA Community Job Postings Site, IsoStat mailing list, etc. As it becomes more common (or even required) for institutions to list salary ranges on job postings, I hope to be able to expand this resource even further!"
+  },
+  {
+    "objectID": "resources.html#stay-tuned",
+    "href": "resources.html#stay-tuned",
+    "title": "Resources",
+    "section": "Stay Tuned…",
+    "text": "Stay Tuned…\nMore resources coming soon!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello! Welcome to my website.\nMy name is Kelsey Grinde (KELL-see GRIN-dee) and I use the pronouns she/her/hers. I am a biostatistician and Assistant Professor of Statistics at Macalester College in St. Paul, Minnesota. I was born and raised in the Twin Cities and am happy to back as of Fall 2019.\nBefore coming to Macalester, I spent five years in Seattle pursuing my PhD in Biostatistics at the University of Washington. Prior to that, I pursued a BA in mathematics, with a concentration in statistics, at St. Olaf College. I have the wonderful faculty at St. Olaf to thank for inspiring my interest in statistics and teaching at a liberal arts college.\nI can also thank St. Olaf for introducing me to my spouse, Zack, where we met on the intramural soccer field. (Coincidentally, my parents also met playing soccer at St. Olaf.) I am a lifelong soccer player and fan, and this continues to be one of my favorite ways to spend time outside of work. In what’s left of my free time, I also enjoy trying new restaurants, breweries, and coffee shops around the Twin Cities, listening to local radio station The Current, and traveling. The picture on this page is from a February 2024 trip to Fiordland National Park in New Zealand."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Scholarship",
+    "section": "",
+    "text": "I am a biostatistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing and applying statistical methods to better understand human health and genetics, with a recent emphasis on genetic studies in populations with mixed ancestry (also known as “admixed populations”). Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies.\nAs a teacher-scholar at a small liberal arts institution, I engage undergraduates in this work through summer research projects, honors theses, and a newly designed course in statistical genetics. My close collaboration with students within and beyond the classroom has also inspired an increasing engagement in the scholarship of teaching and learning, with a focus thus far on alternative grading."
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Scholarship",
+    "section": "",
+    "text": "I am a biostatistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing and applying statistical methods to better understand human health and genetics, with a recent emphasis on genetic studies in populations with mixed ancestry (also known as “admixed populations”). Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies.\nAs a teacher-scholar at a small liberal arts institution, I engage undergraduates in this work through summer research projects, honors theses, and a newly designed course in statistical genetics. My close collaboration with students within and beyond the classroom has also inspired an increasing engagement in the scholarship of teaching and learning, with a focus thus far on alternative grading."
+  },
+  {
+    "objectID": "research.html#recent-projects",
+    "href": "research.html#recent-projects",
+    "title": "Scholarship",
+    "section": "Recent Projects",
+    "text": "Recent Projects\n\n\nStatistical Genetics Methods\n\nUnderstanding the power—and limitations—of admixture mapping studies, in collaboration with Macalester student Tina Chen (’25)\nIllustrating potential pitfalls of using principal component analysis to infer and control for population structure in genome-wide association studies\n\nPublished in PLOS Genetics [link]\n\nUpdating STEAM—an R package that implements methods to adjust for multiple testing concerns that arise in genome-wide admixture mapping studies—in collaboration with Macalester students Zuofu Huang (’21), Tina Chen (’25), Sydney Ohr (’26), and Katelyn McClure (’26)\n\nAvailable on GitHub\n\n\n\n\nCollaborative Applications\n\nExploring disparities in B-cell acute lymphoblastic leukemia (B-ALL) survival, in collaboration with Macalester student Sofia Barragan (’22) and investigators at the University of Minnesota\n\nPublished in Cancer Medicine [link]\n\n\n\n\n\nScholarship of Teaching and Learning\n\n\nExploring the four dimensions of equity (access, achievement, identity, power) posed by Gutiérrez (2009) as relates to the topic of grading\n\nPublished as a guest post on Grading for Growth [link] (and since recognized as one of the most popular posts of the year [link] and all time [link])"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Scholarship",
+    "section": "Publications",
+    "text": "Publications\nYou can find a full list of publications on my CV or Google Scholar."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kelsey E. Grinde",
+    "section": "",
+    "text": "I am an Assistant Professor in the Department of Mathematics, Statistics, and Computer Science at Macalester College in St. Paul, Minnesota.\nAt Macalester, I teach courses across our undergraduate statistics and data science curriculum. You can find a complete list of the courses I have taught, and their corresponding course materials, on my Teaching page.\nMy research focuses on developing and applying statistical methods to answer questions about human health and genetics. I am also increasingly interested in Scholarship on Teaching and Learning. Read more about current and past projects on my Scholarship page.\nI enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the Resources page.\nIf you’re looking to learn more about me, otherwise, take a look at my CV or About Me page."
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "At Macalester, I teach classes ranging across all levels of our undergraduate statistics and data science curriculum, from introductory statistics to a capstone course in statistical genetics. Materials for each of these courses are provided in the table below.\nBefore coming to Macalester, I was an instructor and teaching assistant for various undergraduate and graduate biostatistics courses at the University of Washington. More details about the latter are available on my CV.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Course\n      \n      \n        Sections Taught\n      \n      \n        Semesters Taught\n      \n      \n        Syllabus\n      \n      \n        Materials\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nCourse\n\n\n\nSections Taught\n\n\n\nSemesters Taught\n\n\n\nSyllabus\n\n\n\nMaterials\n\n\n\n\n\n\n\n\nSTAT 155: Introduction to Statistical Modeling\n\n\n13\n\n\nFa19 (x2), Sp20, Fa20 (x2), Sp21, Fa21 (x2), Sp22 (x2), Fa22, Sp23 (x2)\n\n\nSp23 Syllabus\n\n\nSTAT 155 Notes (OER)\n\n\n\n\n\n\nSTAT 253: Statistical Machine Learning\n\n\n4\n\n\nFa24 (x3), Sp25\n\n\nSp25 Syllabus\n\n\nCourse Notes\n\n\n\n\n\n\nMATH/STAT 455: Mathematical Statistics\n\n\n4\n\n\nSp20, Sp21, Sp22, Sp23\n\n\nSp23 Syllabus\n\n\nReading Guides\n\n\n\n\n\n\nSTAT 494: Statistical Genetics\n\n\n2\n\n\nFa22, Sp25\n\n\nSp25 Syllabus\n\n\nCourse Website\n\n\n\n\n\n\nNo matching items"
+  }
+]
