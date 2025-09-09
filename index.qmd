@@ -1,35 +1,31 @@
 ---
-title: "Kelsey E. Grinde"
-subtitle: "Biostatistician"
+title: "Md Mutasim Billah"
+subtitle: "Ph.D. in Statistics | Bioinformatics | Statistical Genetics | Biostatistics | Machine Learning | Deep Learning"
 image: images/headshot.jpg
-image-alt: "Headshot of Kelsey Grinde"
+image-alt: "Headshot of Md Mutasim Billah"
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
   links:
     - icon: envelope
       text: Email
-      href: mailto:kgrinde@macalester.edu
+      href: mailto:mutasimsbidu@gmail.com
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/kelsey-grinde/
-    - icon: github
-      text: Github
-      href: https://github.com/kegrinde
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=-lS0yWMAAAAJ&hl=en
+      href: https://www.linkedin.com/in/mutasim221b/
 ---
 
-I am an Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota.
+I am a Visiting Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota.
 
 At Macalester, I teach courses across our undergraduate statistics and data science curriculum. 
 You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching/index.qmd) page.  
 
-My research focuses on developing and applying statistical methods to answer questions about human health and genetics. 
-I am also increasingly interested in Scholarship on Teaching and Learning. 
+My methodological research lies at the intersection of statistical genetics, biostatistics, and genomics. I develop novel statistical methods and computationally efficient bioinformatics tools---and leverage modern machine- and deep-learning approaches---to analyze high-dimensional next-generation sequencing and multi-omics data to identify genes and regulatory mechanisms underlying complex disease. In collaborative settings, I translate these approaches to address genetic and public-health questions across the biomedical sciences.
+
+I am also developing a strong interest in SoTL (the scholarship of teaching and learning).
+
 Read more about current and past projects on my [Scholarship](research.qmd) page.
 
-I enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. 
+I enjoy talking with students about research, graduate programs, and career opportunities in statistics. 
 If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the [Resources](resources.qmd) page.
 
 If you're looking to learn more about me, otherwise, take a look at my [CV](cv/cv.pdf) or [About Me](about.qmd) page.

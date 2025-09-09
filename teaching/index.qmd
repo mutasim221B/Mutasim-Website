@@ -1,5 +1,7 @@
 ---
 title: "Teaching"
+image: images/teaching.jpg
+image-alt: "Headshot of Kelsey Grinde"
 listing: 
   contents: courses.yml
   type: table

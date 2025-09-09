@@ -4,5 +4,14 @@
   },
   "teaching/index.qmd": {
     "index.html": "fcba88c6"
+  },
+  "research.qmd": {
+    "research.html": "44774b51"
+  },
+  "about.qmd": {
+    "about.html": "ed193ac0"
+  },
+  "resources.qmd": {
+    "resources.html": "ee9b168f"
   }
 }
