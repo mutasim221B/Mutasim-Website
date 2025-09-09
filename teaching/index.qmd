@@ -1,17 +1,19 @@
 ---
 title: "Teaching"
-image: images/teaching.jpg
-image-alt: "Headshot of Kelsey Grinde"
+title-block-banner: "../images/teaching.jpg"
+image: ../images/teaching.jpg   # optional; for social previews
 listing: 
   contents: courses.yml
   type: table
   fields: [Course, Sections Taught, Semesters Taught, Syllabus, Materials]
 ---
 
-At Macalester, I teach classes ranging across all levels of our undergraduate statistics and data science curriculum, from introductory statistics to a capstone course in statistical genetics. 
-Materials for each of these courses are provided in the table below.
+At Macalester College, I am currently teaching Introduction to Statistical Modeling and am scheduled to teach Statistical Machine Learning in the Spring 2026. These courses represent both the foundational and advanced levels of the undergraduate statistics and data science curriculum.
 
-Before coming to Macalester, I was an instructor and teaching assistant for various undergraduate and graduate biostatistics courses at the University of Washington. 
+The materials for each course are provided in the table below.
+
+Before joining Macalester, I spent seven years as an instructor and teaching assistant for a variety of undergraduate and graduate statistics courses at Michigan Technological University and the University of Northern Colorado.
+
 More details about the latter are available on my [CV](../cv/cv.pdf).
 
 <!-- reorganize to include syllabi from all semesters? -->

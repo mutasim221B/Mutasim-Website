@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Kelsey E. Grinde, PhD"
+  title: "Md Mutasim Billah, PhD"
   navbar:
     right:
       - text: Home
