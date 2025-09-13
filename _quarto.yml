@@ -9,11 +9,11 @@ website:
       - text: Home
         href: index.qmd
       - text: Teaching
-        href: teaching/index.qmd
-      - text: Scholarship
+        href: teaching.qmd
+      - text: Research
         href: research.qmd
-      - text: Resources
-        href: resources.qmd
+      - text: Professional Activities
+        href: professional.qmd
       - text: About Me
         href: about.qmd
     tools: 

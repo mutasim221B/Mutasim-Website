@@ -1,86 +1,65 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "professional.html",
+    "href": "professional.html",
+    "title": "Professional Work Experience & leadership",
     "section": "",
-    "text": "Wondering how to make a website?\nThis website was made with Quarto. Source code and files are available here. I found these two resources particularly helpful in building this site:\n\nCreating your personal website using Quarto by Sam Csik\nFrom Zero to Website in Twenty Minutes with Quarto by Charlotte Wickham"
+    "text": "I’m active in service and leadership alongside my teaching and research. Highlights below."
   },
   {
-    "objectID": "resources.html#making-a-website",
-    "href": "resources.html#making-a-website",
-    "title": "Resources",
-    "section": "",
-    "text": "Wondering how to make a website?\nThis website was made with Quarto. Source code and files are available here. I found these two resources particularly helpful in building this site:\n\nCreating your personal website using Quarto by Sam Csik\nFrom Zero to Website in Twenty Minutes with Quarto by Charlotte Wickham"
+    "objectID": "professional.html#macalester-college-department-of-mathematics-statistics-computer-science",
+    "href": "professional.html#macalester-college-department-of-mathematics-statistics-computer-science",
+    "title": "Professional Work Experience & leadership",
+    "section": "Macalester College — Department of Mathematics, Statistics & Computer Science",
+    "text": "Macalester College — Department of Mathematics, Statistics & Computer Science\nAs part of the Transformation Committee, I contribute across multiple areas that support both faculty and students. I am involved in preceptor hiring, training, and evaluation, with a strong emphasis on creating a sense of community. This includes designing and leading training related to diversity, equity, and inclusion (DEI), pedagogy, and departmental policies, as well as serving as a liaison to the SciQ Center.\nI also focus on faculty support and mentoring by ensuring that junior faculty are paired with senior mentors and that new faculty are connected with colleagues who have previously taught the same course. In addition, I organize reciprocal course visits for all faculty members, encouraging these exchanges to happen early in the academic year.\nWithin the DEI space, I work on updating the department’s DEI website and ensuring that concrete efforts are clearly communicated. I also contribute to rethinking policies and procedures, scheduling student listening sessions, and maintaining community guidelines so they remain relevant and widely shared. To further pedagogical development, I help initiate workshops and working groups tailored to faculty interests, and I collaborate with the Student Advisory Board whenever appropriate."
   },
   {
-    "objectID": "resources.html#grad-school",
-    "href": "resources.html#grad-school",
-    "title": "Resources",
-    "section": "Grad School",
-    "text": "Grad School\nThinking about grad school?\nCheck out the slides or recording from a talk I gave about grad school at eUSR 2020."
-  },
-  {
-    "objectID": "resources.html#academic-job-market",
-    "href": "resources.html#academic-job-market",
-    "title": "Resources",
-    "section": "Academic Job Market",
-    "text": "Academic Job Market\nOn the job market?\nRead the September newsletter from the American Statistical Association’s Section on Statistics in Genomics and Genetics (SSGG). I contributed some reflections and tips on applying for jobs at liberal arts colleges, and there is also great advice from others on applying for other types of jobs.\nCheck out this dataset containing salary ranges for statistics faculty positions. I created, and regularly update, this dataset by pulling salary ranges listed on official job postings shared via the ASA Community Job Postings Site, IsoStat mailing list, etc. As it becomes more common (or even required) for institutions to list salary ranges on job postings, I hope to be able to expand this resource even further!"
-  },
-  {
-    "objectID": "resources.html#stay-tuned",
-    "href": "resources.html#stay-tuned",
-    "title": "Resources",
-    "section": "Stay Tuned…",
-    "text": "Stay Tuned…\nMore resources coming soon!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hello! Welcome to my website.\nMy name is Md Mutasim Billah (EM-DEE MUTAA-seem bi-LAH) and I use the pronouns she/her/hers. I am a statistician and Visiting Assistant Professor of Statistics at Macalester College in St. Paul, Minnesota. I completed my PhD in Statistics at Michigan Technological University in Summer 2025. Before that, I earned both a B.Sc. and M.Sc. in Statistics, Biostatistics, & Informatics from the University of Dhaka, the top public university in Bangladesh. I also obtained a second M.Sc. in Statistics from Michigan Technological University.\nIn my personal life, I am a proud father of three wonderful children – as of 2025, my daughter is 7 years old, and my two sons are 3 years old and 18 months old. Outside of my academic work, I enjoy spending time outdoors with my family and friends or cooking a variety of foods. If you can’t find me anywhere, I might be busy playing soccer or exploring new worlds on PS5!.\nThe picture on this page is from a Juky 2024 trip to Pictured Rocks at Munising, Michigan."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Scholarship",
-    "section": "",
-    "text": "I am a biostatistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing and applying statistical methods to better understand human health and genetics, with a recent emphasis on genetic studies in populations with mixed ancestry (also known as “admixed populations”). Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies.\nAs a teacher-scholar at a small liberal arts institution, I engage undergraduates in this work through summer research projects, honors theses, and a newly designed course in statistical genetics. My close collaboration with students within and beyond the classroom has also inspired an increasing engagement in the scholarship of teaching and learning, with a focus thus far on alternative grading."
-  },
-  {
-    "objectID": "research.html#overview",
-    "href": "research.html#overview",
-    "title": "Scholarship",
-    "section": "",
-    "text": "I am a biostatistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing and applying statistical methods to better understand human health and genetics, with a recent emphasis on genetic studies in populations with mixed ancestry (also known as “admixed populations”). Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies.\nAs a teacher-scholar at a small liberal arts institution, I engage undergraduates in this work through summer research projects, honors theses, and a newly designed course in statistical genetics. My close collaboration with students within and beyond the classroom has also inspired an increasing engagement in the scholarship of teaching and learning, with a focus thus far on alternative grading."
-  },
-  {
-    "objectID": "research.html#recent-projects",
-    "href": "research.html#recent-projects",
-    "title": "Scholarship",
-    "section": "Recent Projects",
-    "text": "Recent Projects\n\n\nStatistical Genetics Methods\n\nUnderstanding the power—and limitations—of admixture mapping studies, in collaboration with Macalester student Tina Chen (’25)\nIllustrating potential pitfalls of using principal component analysis to infer and control for population structure in genome-wide association studies\n\nPublished in PLOS Genetics [link]\n\nUpdating STEAM—an R package that implements methods to adjust for multiple testing concerns that arise in genome-wide admixture mapping studies—in collaboration with Macalester students Zuofu Huang (’21), Tina Chen (’25), Sydney Ohr (’26), and Katelyn McClure (’26)\n\nAvailable on GitHub\n\n\n\n\nCollaborative Applications\n\nExploring disparities in B-cell acute lymphoblastic leukemia (B-ALL) survival, in collaboration with Macalester student Sofia Barragan (’22) and investigators at the University of Minnesota\n\nPublished in Cancer Medicine [link]\n\n\n\n\n\nScholarship of Teaching and Learning\n\n\nExploring the four dimensions of equity (access, achievement, identity, power) posed by Gutiérrez (2009) as relates to the topic of grading\n\nPublished as a guest post on Grading for Growth [link] (and since recognized as one of the most popular posts of the year [link] and all time [link])"
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Scholarship",
-    "section": "Publications",
-    "text": "Publications\nYou can find a full list of publications on my CV or Google Scholar."
+    "objectID": "professional.html#michigan-technological-university-graduate-student-government-gsg",
+    "href": "professional.html#michigan-technological-university-graduate-student-government-gsg",
+    "title": "Professional Work Experience & leadership",
+    "section": "Michigan Technological University — Graduate Student Government (GSG)",
+    "text": "Michigan Technological University — Graduate Student Government (GSG)\nAt Michigan Tech, I held elected leadership roles in two GSG-recognized student organizations. As Treasurer and later Vice President of the Muslim Student Association (MSA) (Jan 2021–Dec 2022), I oversaw budgeting and financial reporting, submitted funding requests to GSG, coordinated campus partnerships and events, and maintained day-to-day operations and member communications—stepping in for the president when needed to keep initiatives on track.\nEarlier, as President of the Bangladesh Student Association (BSA) (Jan–Dec 2020), I led cultural and community programming, coordinated activities for a broad membership, managed administrative requirements with the university, and represented the organization in collaborations across campus. Together, these roles strengthened my capacity to manage budgets, design inclusive programming, and translate community goals into organized, well-communicated action."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Md Mutasim Billah",
     "section": "",
-    "text": "I am a Visiting Assistant Professor in the Department of Mathematics, Statistics, and Computer Science at Macalester College in St. Paul, Minnesota.\nAt Macalester, I teach courses across our undergraduate statistics and data science curriculum. You can find a complete list of the courses I have taught, and their corresponding course materials, on my Teaching page.\nMy methodological research lies at the intersection of statistical genetics, biostatistics, and genomics. I develop novel statistical methods and computationally efficient bioinformatics tools—and leverage modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data to identify genes and regulatory mechanisms underlying complex disease. In collaborative settings, I translate these approaches to address genetic and public-health questions across the biomedical sciences.\nI am also developing a strong interest in SoTL (the scholarship of teaching and learning).\nRead more about current and past projects on my Scholarship page.\nI enjoy talking with students about research, graduate programs, and career opportunities in statistics. If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the Resources page.\nIf you’re looking to learn more about me, otherwise, take a look at my CV or About Me page."
+    "text": "I am a Visiting Assistant Professor in the Department of Mathematics, Statistics, and Computer Science at Macalester College in St. Paul, Minnesota.\nEntering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at Michigan Technological University (2019–2024), instructor at the University of Northern Colorado (2018–2019), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my Teaching page.\nMy methodological and applied research interest lies at the intersection of statistical genetics, biostatistics, and genomics. Please read more about current and past projects on my Research page.\nI am also developing a strong interest in SoTL (the scholarship of teaching and learning). I enjoy talking with students about courses, research, graduate programs, and career opportunities in statistics.\nBeyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I serve on the Transformation Committee and contribute to preceptor (GTA) program development, training, and evaluation, faculty-development support, and DEI initiatives. Please see the Professional Work Experience tab for details.\nIf you’re looking to learn more about me, otherwise, take a look at my CV or About Me page."
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "At Macalester College, I am currently teaching Introduction to Statistical Modeling and am scheduled to teach Statistical Machine Learning in the Spring 2026. These courses represent both the foundational and advanced levels of the undergraduate statistics and data science curriculum.\nThe materials for each course are provided in the table below.\nBefore joining Macalester, I spent seven years as an instructor and teaching assistant for a variety of undergraduate and graduate statistics courses at Michigan Technological University and the University of Northern Colorado.\nMore details about the latter are available on my CV.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Course\n      \n      \n        Sections Taught\n      \n      \n        Semesters Taught\n      \n      \n        Syllabus\n      \n      \n        Materials\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nCourse\n\n\n\nSections Taught\n\n\n\nSemesters Taught\n\n\n\nSyllabus\n\n\n\nMaterials\n\n\n\n\n\n\n\n\nSTAT 155: Introduction to Statistical Modeling\n\n\n13\n\n\nFa19 (x2), Sp20, Fa20 (x2), Sp21, Fa21 (x2), Sp22 (x2), Fa22, Sp23 (x2)\n\n\nSp23 Syllabus\n\n\nSTAT 155 Notes (OER)\n\n\n\n\n\n\nSTAT 253: Statistical Machine Learning\n\n\n4\n\n\nFa24 (x3), Sp25\n\n\nSp25 Syllabus\n\n\nCourse Notes\n\n\n\n\n\n\nMATH/STAT 455: Mathematical Statistics\n\n\n4\n\n\nSp20, Sp21, Sp22, Sp23\n\n\nSp23 Syllabus\n\n\nReading Guides\n\n\n\n\n\n\nSTAT 494: Statistical Genetics\n\n\n2\n\n\nFa22, Sp25\n\n\nSp25 Syllabus\n\n\nCourse Website\n\n\n\n\n\n\nNo matching items"
+    "text": "At Macalester College, I currently teach Introduction to Statistical Modeling and am scheduled to teach Statistical Machine Learning in Spring 2026. Together, these courses span the foundational and advanced levels of our undergraduate statistics and data science curriculum.\nAt Michigan Technological University, I served as both a Graduate Teaching Instructor (GTI) and Graduate Teaching Assistant (GTA) for statistics courses. As a GTI, I taught a 3000-level Engineering Statistics course across three modalities: in-person, synchronous online (remote), and asynchronous online.\nAt the University of Northern Colorado, I was the GTI for Introduction to Statistical Analysis for three semesters.\nWorking closely with students in and beyond the classroom has deepened my engagement with the scholarship of teaching and learning. I’ve participated in several teaching conferences and workshops that strengthened my understanding of evidence-based pedagogy, inclusive course design, and equitable assessment—especially alternative/specifications grading and transparent assignment design. I continue to develop my practice around active-learning strategies, support for diverse learners, and the thoughtful use of learning analytics to improve engagement and outcomes. These experiences directly inform my day-to-day teaching and the way I mentor preceptors/GTAs and collaborate on departmental initiatives.\nBelow is a summary of courses with links to syllabi and materials.\n\nCourses\n\n\n\nCourse\nSections Taught\nSemesters Taught\nSyllabus\nMaterials\n\n\n\n\nIntroduction to Statistical Modeling\n2\nFa25 (x2)\nFall25 Syllabus\nCourse Website\n\n\nStatistical Machine Learning\nTBD\nSp26\nTBD\nTBD\n\n\nEngineering Statistics (GTI)\n14\nFa20,21,23,24, Sp21-25, Su20-24\nSp25 Syllabus\nLive-Notes, Handouts, Class-Notes, Practice Problem\n\n\nApplied generalized Linear Models (GTA)\n1\nSp23\n\nClass-Notes\n\n\nDesign & Analysis of Experiment (GTA)\n1\nFa22\n\nClass-Notes\n\n\nRegression Analysis (GTA)\n1\nFa21\n\nSample-Class-Notes\n\n\nStatistical Methods (GTA)\n1\nFa19\n\nHandouts\n\n\nIntroduction to Statistical Analysis (GTI)\n3\nFa18, Sp19, Su19"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I am a statistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing novel statistical methods and computationally efficient bioinformatics tools—leveraging modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data and identify genes and regulatory mechanisms underlying complex disease.\nI plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences."
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "I am a statistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing novel statistical methods and computationally efficient bioinformatics tools—leveraging modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data and identify genes and regulatory mechanisms underlying complex disease.\nI plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences."
+  },
+  {
+    "objectID": "research.html#past-projects",
+    "href": "research.html#past-projects",
+    "title": "Research",
+    "section": "Past Projects",
+    "text": "Past Projects\nBelow are the lists of past projects- manuscripts are in preparation.\n\nTWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner\nGBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information\nApplication of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework\n\n\nActive Research\n\nExtending multi-tissue TWAS frameworks (e.g., CTL, G-Boost-CTL) to leverage GWAS summary-level data\nBenchmarking advanced ML and DL Models for cross-tissue gene expression imputation\nDeveloping unsupervised clustering and latent-factor approaches to characterize pleiotropic effects in GWAS\nInvestigating the distinct roles and interactions of local and distant genetic variants in controlling gene expression across different tissues within the TWAS framework\nApplying advanced ML and DL architectures for multi-omics data integration\nDeveloping sparsity-inducing, power-adaptive procedures to identify and remove non-informative tissues in multi-tissue TWAS\n\nYou can find more details on my CV."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello! Welcome to my website.\nMy name is Md Mutasim Billah (EM-DEE MUTAA-seem bi-LAH) and I use the pronouns he/him/his. I am a statistician and Visiting Assistant Professor of Statistics at Macalester College in St. Paul, Minnesota. I completed my PhD in Statistics at Michigan Technological University in Summer 2025. Before that, I earned both a B.Sc. and M.Sc. in Statistics, Biostatistics, & Informatics from the University of Dhaka, the top public university in Bangladesh. I also obtained a second M.Sc. in Statistics from Michigan Technological University.\nIn my personal life, I am a proud father of three wonderful children – as of 2025, my daughter is 7 years old, and my two sons are 3 years old and 18 months old. Outside of my academic work, I enjoy spending time outdoors with my family and friends or cooking a variety of foods. If you can’t find me anywhere, I might be busy playing soccer or exploring new worlds on PS5!\nThe picture on this page is from a July 2024 trip to Pictured Rocks at Munising, Michigan."
   }
 ]

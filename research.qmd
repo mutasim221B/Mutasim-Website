@@ -1,68 +1,39 @@
 ---
-title: "Scholarship"
+title: "Research"
+format: 
+  html:
+    embed-resources: true
+    toc: true
 ---
+
 
 ## Overview 
 
-I am a biostatistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. 
-My work focuses on developing and applying statistical methods to better understand human health and genetics, with a recent emphasis on genetic studies in populations with mixed ancestry (also known as "admixed populations"). 
-Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies. 
+I am a statistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing novel statistical methods and computationally efficient bioinformatics tools—leveraging modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data and identify genes and regulatory mechanisms underlying complex disease. 
 
-As a teacher-scholar at a small liberal arts institution, I engage undergraduates in this work through summer research projects, honors theses, and a newly designed [course in statistical genetics](https://mac-stat.github.io/statgen/). 
-My close collaboration with students within and beyond the classroom has also inspired an increasing engagement in the scholarship of teaching and learning, with a focus thus far on alternative grading.
-
-<!--
-My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations---populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos---who have been [vastly underrepresented](https://www.nature.com/articles/538161a) in genetics research to date. 
-For example, one of my recent projects developed methods and a corresponding [R package](https://github.com/GrindeLab/STEAM) (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies. 
-
-Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies. 
-In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. 
-This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students.
--->
-
-## Recent Projects
-
-<!-- reorganize into tile structure? -->
-
-### Statistical Genetics Methods
-
-- Understanding the power---and limitations---of admixture mapping studies, in collaboration with Macalester student Tina Chen ('25)
-
-- Illustrating potential pitfalls of using principal component analysis to infer and control for population structure in genome-wide association studies
-    - Published in *PLOS Genetics* [[link]](https://doi.org/10.1371/journal.pgen.1011242)
-
-- Updating `STEAM`---an  R package that implements methods to adjust for multiple testing concerns that arise in genome-wide admixture mapping studies---in collaboration with Macalester students Zuofu Huang ('21), Tina Chen ('25), Sydney Ohr ('26), and Katelyn McClure ('26) 
-    - Available on [GitHub](https://github.com/GrindeLab/STEAM)
-
-### Collaborative Applications
-
-- Exploring disparities in B-cell acute lymphoblastic leukemia (B-ALL) survival, in collaboration with Macalester student Sofia Barragan ('22) and investigators at the University of Minnesota 
-
-    - Published in *Cancer Medicine* [[link]](https://doi.org/10.1002/cam4.5266)
-
-<!--
-- Visualizing circular RNA (circRNA) interactions in HIV-1 patients, in collaboration with Macalester student Abdullgadir Hayir ('22) and investigators at the University of Minnesota 
-
-    - Paper published in *Viruses* [[link]](https://doi.org/10.3390/v14040683) and `shiny` application available [here](https://kblcircosgraph.shinyapps.io/circos/) ([code](https://github.com/GrindeLab/circRNA))
--->
+I plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences.
 
 
-### Scholarship of Teaching and Learning
+## Past Projects
+Below are the lists of past projects- manuscripts are in preparation.
 
-<!-- HERE -->
+- TWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner
 
-- Exploring the four dimensions of equity (access, achievement, identity, power) posed by [Gutiérrez (2009)](https://www.todos-math.org/assets/documents/TEEMv1n1excerpt.pdf) as relates to the topic of grading 
+- GBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information
 
-    - Published as a guest post on *Grading for Growth* [[link]](https://gradingforgrowth.com/p/beyond-achievement?r=2ny4pq&utm_campaign=post&utm_medium=web) (and since recognized as one of the most popular posts of the year [[link]](https://gradingforgrowth.com/p/grading-for-growth-a-look-back-and?utm_campaign=post&utm_medium=web) and all time [[link]](https://open.substack.com/pub/gradingforgrowth/p/the-top-5-sort-of-posts-at-grading?r=2ny4pq&utm_campaign=post&utm_medium=email))
+- Application of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework
 
-<!--
-- OER
--->
+### Active Research
+
+- Extending multi-tissue TWAS frameworks (e.g., CTL, G-Boost-CTL) to leverage GWAS summary-level data 
+- Benchmarking advanced ML and DL Models for cross-tissue gene expression imputation 
+- Developing unsupervised clustering and latent-factor approaches to characterize pleiotropic effects in GWAS
+- Investigating the distinct roles and interactions of local and distant genetic variants in controlling gene expression across different tissues within the TWAS framework
+- Applying advanced ML and DL architectures for multi-omics data integration
+- Developing sparsity-inducing, power-adaptive procedures to identify and remove non-informative tissues in multi-tissue TWAS
 
 
-## Publications
-
-You can find a full list of publications on my CV or [Google Scholar](https://scholar.google.com/citations?user=-lS0yWMAAAAJ&hl=en). 
+You can find more details on my CV. 
 
 <embed src="../cv/cv.pdf" width="600" height="500" 
  type="application/pdf">

@@ -16,16 +16,14 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 I am a Visiting Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota.
 
-AS of Fall 2025, this is my 8-th year of teaching Statistics- with gradiate teaching instructor at Michigan Technological University (Fall 2019-Soring 2024), University of Northern Colorado (Fall 2018-Summer 2019), and Visitng assistant Professor at Macalester College (Fall 2025-ongoing). At Macalester, I teach courses across our undergraduate statistics and data science curriculum. 
-You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching/index.qmd) page.  
+Entering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at Michigan Technological University (2019–2024), instructor at the University of Northern Colorado (2018–2019), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
 
-My methodological research lies at the intersection of statistical genetics, biostatistics, and genomics. I develop novel statistical methods and computationally efficient bioinformatics tools---and leverage modern machine- and deep-learning approaches---to analyze high-dimensional next-generation sequencing and multi-omics data to identify genes and regulatory mechanisms underlying complex disease. In collaborative settings, I translate these approaches to address genetic and public-health questions across the biomedical sciences.
 
-I am also developing a strong interest in SoTL (the scholarship of teaching and learning).
+My methodological and applied research interest lies at the intersection of statistical genetics, biostatistics, and genomics. Please read more about current and past projects on my [Research](research.qmd) page.
 
-Read more about current and past projects on my [Scholarship](research.qmd) page.
+I am also developing a strong interest in SoTL (the scholarship of teaching and learning). I enjoy talking with students about courses, research, graduate programs, and career opportunities in statistics. 
 
-I enjoy talking with students about research, graduate programs, and career opportunities in statistics. 
-If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the [Resources](resources.qmd) page.
+Beyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I serve on the Transformation Committee and contribute to preceptor (GTA) program development, training, and evaluation, faculty-development support, and DEI initiatives. Please see the [Professional Work Experience](professional.qmd) tab for details.
+
 
 If you're looking to learn more about me, otherwise, take a look at my [CV](cv/cv.pdf) or [About Me](about.qmd) page.
