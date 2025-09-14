@@ -1,0 +1,39 @@
+---
+title: "Achievement and Awards"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+
+## Teaching at MTU
+
+At Michigan Technological University (MTU), teaching excellence is a priority in Mathematical Sciences. Graduate instructors complete the **Teaching College Mathematics** course before teaching; 3000-level courses are typically assigned to top GTIs with chair approval.
+
+MTU evaluates instruction using the average of **seven dimensions**:
+
+- **Enthusiasm** — instructor enthusiasm for the subject  
+- **Clarity** — clear communication of material  
+- **Class Engagement** — in-class participation/engagement  
+- **Preparation Engagement** — support for out-of-class preparation/reflection  
+- **Timely Feedback** — prompt, high-quality feedback  
+- **Student Interest** — interest in students’ learning and development  
+- **Technology Usage** — effective use of technology
+
+## Summary of Evaluation Scores (All Semesters)
+
+I taught **MA 3710: Engineering Statistics** in person and online. The figures below summarize average evaluation scores by semester and by dimension.
+
+![](images/Table_Evals_Final.png){fig-cap="Average student evaluation scores across seven dimensions for each semester."}
+
+::: {.columns}
+::: {.column width="47%"}
+![](images/line_plot_evals.png){fig-cap="Average evaluation score (seven-dimension mean) by semester. The dashed line at 4.40 marks strong performance."}
+:::
+::: {.column width="53%"}
+![](images/heatmap_evals.png){fig-cap="Heatmap of average scores for the seven dimensions by semester."}
+:::
+:::
+
+**Interpretation.** Figure 1 shows consistently strong evaluations at or above the 4.40 benchmark over time. Figure 2 breaks down performance by dimension (e.g., technology use, participation), highlighting strengths and targets for improvement.

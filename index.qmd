@@ -16,14 +16,14 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 I am a Visiting Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota.
 
-Entering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at Michigan Technological University (2019–2024), instructor at the University of Northern Colorado (2018–2019), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
+Entering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at the University of Northern Colorado (2018–2019), Michigan Technological University (2019–2024), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
 
 
 My methodological and applied research interest lies at the intersection of statistical genetics, biostatistics, and genomics. Please read more about current and past projects on my [Research](research.qmd) page.
 
 I am also developing a strong interest in SoTL (the scholarship of teaching and learning). I enjoy talking with students about courses, research, graduate programs, and career opportunities in statistics. 
 
-Beyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I serve on the Transformation Committee and contribute to preceptor (GTA) program development, training, and evaluation, faculty-development support, and DEI initiatives. Please see the [Professional Work Experience](professional.qmd) tab for details.
+Beyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I serve on the Transformation Committee and contribute to preceptor (GTA) program development, training, and evaluation, faculty-development support, and DEI initiatives. Please see the [Professional Activities](professional.qmd) tab for details.
 
 
 If you're looking to learn more about me, otherwise, take a look at my [CV](cv/cv.pdf) or [About Me](about.qmd) page.

@@ -23,7 +23,7 @@ Below are the lists of past projects- manuscripts are in preparation.
 
 - Application of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework
 
-### Active Research
+## Active Research
 
 - Extending multi-tissue TWAS frameworks (e.g., CTL, G-Boost-CTL) to leverage GWAS summary-level data 
 - Benchmarking advanced ML and DL Models for cross-tissue gene expression imputation 
@@ -33,10 +33,7 @@ Below are the lists of past projects- manuscripts are in preparation.
 - Developing sparsity-inducing, power-adaptive procedures to identify and remove non-informative tissues in multi-tissue TWAS
 
 
-You can find more details on my CV. 
 
-<embed src="../cv/cv.pdf" width="600" height="500" 
- type="application/pdf">
 
 
 
