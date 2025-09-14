@@ -6,8 +6,8 @@ format:
     embed-resources: true
 ---
 
-
-## Teaching at MTU
+# Achievement 
+## Teaching
 
 At Michigan Technological University (MTU), teaching excellence is a priority in Mathematical Sciences. Graduate instructors complete the **Teaching College Mathematics** course before teaching; 3000-level courses are typically assigned to top GTIs with chair approval.
 
@@ -23,17 +23,38 @@ MTU evaluates instruction using the average of **seven dimensions**:
 
 ## Summary of Evaluation Scores (All Semesters)
 
-I taught **MA 3710: Engineering Statistics** in person and online. The figures below summarize average evaluation scores by semester and by dimension.
+I taught **MA 3710: Engineering Statistics** in multiple modalities: in-person, synchronous online, and asynchronous online. The figures below summarize average evaluation scores by semester and by dimension.
 
-![](images/Table_Evals_Final.png){fig-cap="Average student evaluation scores across seven dimensions for each semester."}
+![](images/table_evals.png){fig-cap="Average student evaluation scores across seven dimensions for each semester."}
 
 ::: {.columns}
 ::: {.column width="47%"}
-![](images/line_plot_evals.png){fig-cap="Average evaluation score (seven-dimension mean) by semester. The dashed line at 4.40 marks strong performance."}
+![](images/Evals_plot.png){fig-cap="Average evaluation score (mean of seven dimensions) by semester. The dashed line at 4.21 marks the overall MTU average over the past seven years."}
 :::
 ::: {.column width="53%"}
 ![](images/heatmap_evals.png){fig-cap="Heatmap of average scores for the seven dimensions by semester."}
 :::
 :::
 
-**Interpretation.** Figure 1 shows consistently strong evaluations at or above the 4.40 benchmark over time. Figure 2 breaks down performance by dimension (e.g., technology use, participation), highlighting strengths and targets for improvement.
+**Interpretation.** The table reports average student evaluation scores for each semester across the seven dimensions. The line plot shows consistently strong evaluations at or above **4.21**, the overall MTU average over the past seven years. The heatmap breaks scores out by dimension (e.g., technology use, participation), highlighting strengths and opportunities for improvement.
+
+
+# Awards
+## Teaching
+
+- **Recognition Award** for exceptional teaching (7-dimension average), **Fall 2020**  
+  - Provost’s Office for Academic Affairs, Michigan Technological University  
+  - Among **73 instructors** (86 sections) university-wide rated this highly out of **1,000+** evaluated sections
+
+- **Recognition Award** for outstanding teaching, **Spring 2020**  
+  - Provost’s Office for Academic Affairs, Michigan Technological University
+
+
+## Research
+- **Finishing Fellowship**, Michigan Technological University — *Summer 2025*
+
+
+## Top Student Awards
+**Graduate Course Excellence Awards**, Department of Mathematical Sciences, Michigan Technological University  
+  - Top performance in Ph.D.-level coursework, including: *Probability I* (Fall ’21), *Probability II* (Spring ’22), *Mathematical Statistics I* (Fall ’19, Fall ’20), *Mathematical Statistics II* (Spring ’20, Spring ’21), *Linear Algebra* (Fall ’19), *Categorical Data Analysis* (Spring ’20)
+  
