@@ -9,9 +9,9 @@ about:
 
 At Macalester College, I currently teach Introduction to Statistical Modeling and am scheduled to teach Statistical Machine Learning in Spring 2026. Together, these courses span the foundational and advanced levels of our undergraduate statistics and data science curriculum.
 
-At Michigan Technological University, I served as both a Graduate Teaching Instructor (GTI) and Graduate Teaching Assistant (GTA) for statistics courses. As a GTI, I taught a 3000-level Engineering Statistics course across three modalities: in-person, synchronous online (remote), and asynchronous online.
+At Michigan Technological University (MTU), I served as both a Graduate Teaching Instructor (GTI) and Graduate Teaching Assistant (GTA) for statistics courses. As a GTI, I taught a 3000-level Engineering Statistics course across three modalities: in-person, synchronous online (remote), and asynchronous online.
 
-At the University of Northern Colorado, I was the GTI for Introduction to Statistical Analysis for three semesters.
+At the University of Northern Colorado (UNCo), I was the GTI for Introduction to Statistical Analysis for three semesters.
 
 Working closely with students in and beyond the classroom has deepened my engagement with the scholarship of teaching and learning. I’ve participated in several teaching conferences and workshops that strengthened my understanding of evidence-based pedagogy, inclusive course design, and equitable assessment—especially alternative/specifications grading and transparent assignment design. I continue to develop my practice around active-learning strategies, support for diverse learners, and the thoughtful use of learning analytics to improve engagement and outcomes. These experiences directly inform my day-to-day teaching and the way I mentor preceptors/GTAs and collaborate on departmental initiatives.
 
@@ -22,14 +22,13 @@ Below is a summary of courses with links to syllabi and materials.
 ::: {.column-page}
 ### Courses
 
-| Course | Sections Taught | Semesters Taught | Syllabus | Materials |
+| Course | Institution | Sections Taught | Semesters Taught | Syllabus | Materials |
 |:-----------------------------------------------|:--:|:---------------------------------------------|:--:|:--:|
-| **Introduction to Statistical Modeling** | 2 | Fa25 (x2) | [Fall25 Syllabus](https://mutasim221b.github.io/Mac-STAT-155-Fall-25/syllabus.html) | [Course Website](https://mutasim221b.github.io/Mac-STAT-155-Fall-25) |
-| **Statistical Machine Learning** | TBD | Sp26 | TBD | TBD |
-| **Engineering Statistics (GTI)** | 14 | Fa20,21,23,24, Sp21-25, Su20-24 | [Sp25 Syllabus](courses/sp25.pdf) | [Live-Notes](courses/in-person-notes.pdf), [Handouts](courses/handouts.pdf), [Class-Notes](courses/class-notes.pdf), [Practice Problem](courses/PP-online.pdf) |
-| **Applied generalized Linear Models (GTA)** | 1 | Sp23 |  | [Class-Notes](courses/ma5771-combine.pdf) |
-| **Design & Analysis of Experiment (GTA)** | 1 | Fa22 | | [Class-Notes](courses/design.pdf) |
-| **Regression Analysis (GTA)** | 1 | Fa21 | | [Sample-Class-Notes](courses/Reg-Sample.pdf) |
-| **Statistical Methods (GTA)** | 1 | Fa19 | | [Handouts](courses/stat-method-notes.pdf) |
-| **Introduction to Statistical Analysis (GTI)** | 3 | Fa18, Sp19, Su19 | | |
+| **Introduction to Statistical Modeling** | Macalester College | 2 | Fa25 (x2) | [Fall25 Syllabus](https://mutasim221b.github.io/Mac-STAT-155-Fall-25/syllabus.html) | [Course Website](https://mutasim221b.github.io/Mac-STAT-155-Fall-25) |
+| **Statistical Machine Learning** | Macalester College | TBD | Sp26 | TBD | TBD |
+| **Engineering Statistics (GTI)** | MTU | 15 | Fa20,21,23,24, Sp20-25, Su20-24 | [Sp25 Syllabus](courses/sp25.pdf) | [Live-Notes](courses/in-person-notes.pdf), [Handouts](courses/handouts.pdf), [Class-Notes](courses/class-notes.pdf), [Practice Problem](courses/PP-online.pdf) |
+| **Applied generalized Linear Models (GTA)** | MTU | 1 | Sp23 |  | [Class-Notes](courses/ma5771-combine.pdf) |
+| **Design & Analysis of Experiment (GTA)** | MTU | 1 | Fa22 | | [Class-Notes](courses/design.pdf) |
+| **Statistical Methods (GTA)** | MTU | 1 | Fa19 | | [Handouts](courses/stat-method-notes.pdf) |
+| **Introduction to Statistical Analysis (GTI)** | UNCo | 3 | Fa18, Sp19, Su19 | | |
 :::

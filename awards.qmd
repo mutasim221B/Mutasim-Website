@@ -56,5 +56,12 @@ I taught **MA 3710: Engineering Statistics** in multiple modalities: in-person, 
 
 ## Top Student Awards
 **Graduate Course Excellence Awards**, Department of Mathematical Sciences, Michigan Technological University  
-  - Top performance in Ph.D.-level coursework, including: *Probability I* (Fall ’21), *Probability II* (Spring ’22), *Mathematical Statistics I* (Fall ’19, Fall ’20), *Mathematical Statistics II* (Spring ’20, Spring ’21), *Linear Algebra* (Fall ’19), *Categorical Data Analysis* (Spring ’20)
+  - Top performance in Ph.D.-level coursewors:
+       - *Probability II* [Spring ’22] 
+       - *Probability I* [Fall ’21]
+       - *Mathematical Statistics I* [4000 level- Fall ’19, 5000 level- Fall ’20]
+       - *Mathematical Statistics II* [4000 level- Spring ’20, 5000 level- Spring ’21]
+       - *Categorical Data Analysis* [Spring ’20]
+       - *Linear Algebra* [Fall ’19]
+
   
