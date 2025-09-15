@@ -23,7 +23,7 @@ Below is a summary of courses with links to syllabi and materials.
 ### Courses
 
 | Course | Institution | Sections Taught | Semesters Taught | Syllabus | Materials |
-|:-----------------------------------------------|:--:|:---------------------------------------------|:--:|:--:|
+|:--|:--:|:--:|:--:|:--|:--|
 | **Introduction to Statistical Modeling** | Macalester College | 2 | Fa25 (x2) | [Fall25 Syllabus](https://mutasim221b.github.io/Mac-STAT-155-Fall-25/syllabus.html) | [Course Website](https://mutasim221b.github.io/Mac-STAT-155-Fall-25) |
 | **Statistical Machine Learning** | Macalester College | TBD | Sp26 | TBD | TBD |
 | **Engineering Statistics (GTI)** | MTU | 15 | Fa20,21,23,24, Sp20-25, Su20-24 | [Sp25 Syllabus](courses/sp25.pdf) | [Live-Notes](courses/in-person-notes.pdf), [Handouts](courses/handouts.pdf), [Class-Notes](courses/class-notes.pdf), [Practice Problem](courses/PP-online.pdf) |
