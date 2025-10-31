@@ -8,10 +8,13 @@ about: # https://quarto.org/docs/websites/website-about.html
   links:
     - icon: envelope
       text: Email
-      href: mailto:mutasimsbidu@gmail.com
+      href: mailto:mbillah@macalester.edu
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/mutasim221b/
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=-wpYbcAAAAAJ&hl=en&oi=ao
 ---
 
 I am a Visiting Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota- one of the top-ranked liberal arts institutions in the United States.

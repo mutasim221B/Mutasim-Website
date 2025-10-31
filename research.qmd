@@ -14,10 +14,12 @@ I am a statistician and statistical geneticist with scholarly interests in both 
 I plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences.
 
 
-## Past Projects
-Below are the lists of past projects- manuscripts are in preparation.
+## Recent Projects
+Submitted for publication:
 
-- TWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner
+- TWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at [bioRxiv](https://doi.org/10.1101/2025.10.25.684514).
+
+Finalizing manuscript for publication:
 
 - GBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information
 

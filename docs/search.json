@@ -42,11 +42,11 @@
     "text": "I am a statistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing novel statistical methods and computationally efficient bioinformatics tools—leveraging modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data and identify genes and regulatory mechanisms underlying complex disease.\nI plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences."
   },
   {
-    "objectID": "research.html#past-projects",
-    "href": "research.html#past-projects",
+    "objectID": "research.html#recent-projects",
+    "href": "research.html#recent-projects",
     "title": "Research",
-    "section": "Past Projects",
-    "text": "Past Projects\nBelow are the lists of past projects- manuscripts are in preparation.\n\nTWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner\nGBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information\nApplication of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework"
+    "section": "Recent Projects",
+    "text": "Recent Projects\nSubmitted for publication:\n\nTWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at bioRxiv.\n\nFinalizing manuscript for publication:\n\nGBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information\nApplication of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework"
   },
   {
     "objectID": "research.html#active-research",
