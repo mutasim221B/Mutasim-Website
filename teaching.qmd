@@ -1,34 +1,83 @@
 ---
 title: "Teaching"
-image: images/teaching.jpg
-image-alt: "Photo of Md Mutasim Billah explaining"
-about:
-  template: broadside
-  image-width: 15%      # try 25%–40%, or use "220px"
+format: 
+  html:
+    embed-resources: true
+    toc: true
 ---
 
-At Macalester College, I currently teach Introduction to Statistical Modeling and am scheduled to teach Statistical Machine Learning in Spring 2026. Together, these courses span the foundational and advanced levels of our undergraduate statistics and data science curriculum.
+## Overview 
 
-At Michigan Technological University (MTU), I served as both a Graduate Teaching Instructor (GTI) and Graduate Teaching Assistant (GTA) for statistics courses. As a GTI, I taught a 3000-level Engineering Statistics course across three modalities: in-person, synchronous online (remote), and asynchronous online.
+Working closely with students in and beyond the classroom has deepened my engagement with the scholarship of teaching and learning. I’ve participated in several teaching conferences and workshops that strengthened my understanding of evidence-based pedagogy, inclusive course design, and equitable assessment -- especially alternative/specifications grading and transparent assignment design. I continue to develop my practice around active-learning techniques, flipped classrooms strategies, support for diverse learners, and the thoughtful use of learning analytics to improve engagement and outcomes. These experiences directly inform my day-to-day teaching and the way I mentor preceptors/GTAs and collaborate on departmental initiatives.
 
-At the University of Northern Colorado (UNCo), I was the GTI for Introduction to Statistical Analysis for three semesters.
 
-Working closely with students in and beyond the classroom has deepened my engagement with the scholarship of teaching and learning. I’ve participated in several teaching conferences and workshops that strengthened my understanding of evidence-based pedagogy, inclusive course design, and equitable assessment—especially alternative/specifications grading and transparent assignment design. I continue to develop my practice around active-learning techniques, flipped classrooms strategies, support for diverse learners, and the thoughtful use of learning analytics to improve engagement and outcomes. These experiences directly inform my day-to-day teaching and the way I mentor preceptors/GTAs and collaborate on departmental initiatives.
+## Teaching Experience
+#### **Visiting Assistant Professor**  
+*Department of Mathematics, Statistics, and Computer Science, Macalester College*  
+_Fall 2025-Present_
 
-Below is a summary of courses with links to syllabi and materials.
+- Teaching courses at both the foundational and advanced levels of the undergraduate statistics and data science curriculum.  
+- Designing and continually updating the course website using **Quarto**, integrated with **GitHub** for version control and **R** for reproducible workflows, ensuring students have seamless access to current materials and activities.  
+- Enhancing course curriculum in collaboration with other instructors to align learning outcomes with program objectives and integrating statistical software to strengthen students’ analytic fluency.  
+- Mentoring undergraduate researchers from project conception through analysis and conference-style presentations; preparing students to present their work at research symposia.
+
+
+#### **Graduate Teaching Instructor**  
+*Department of Mathematical Sciences, Michigan Technological University*  
+_Spring 2020–Spring 2025_  
+**Course:** Engineering Statistics (taught across in-person, hybrid, synchronous online, and asynchronous online formats)
+
+- Instructed **MA 3710: Engineering Statistics** across multiple modalities: in-person, hybrid, synchronous online, and asynchronous online.  
+- Maintained average student evaluation scores of **4.21 +/ 5.00** in **14 of 15 semesters** (~ **93%** of courses). Notably, **4.21** matches the overall average student evaluation score of MTU faculty over the past seven years.  
+- Designed and continually updated course materials, incorporating semester-long projects using statistical software to develop both theoretical insight and hands-on analytic skills.  
+- Produced a full suite of instructional assets—short lecture videos, annotated slide decks, and concise handouts- to support flexible, asynchronous learning
+- Designed, administered, and graded every homework set, quiz, project, and examination, ensuring alignment with departmental rubrics
+- Supervised undergraduates transforming class project ideas into posters for the annual Undergraduate Research & Scholarship Symposium and advised former students on research-methodology questions for the Graduate Research Colloquium, helping them integrate statistical reasoning into honors theses.  
+
+
+#### **Graduate Teaching Instructor**  
+*Department of Applied Statistics and Research Methods, University of Northern Colorado*  
+_Fall 2018–Summer 2019_  
+**Course:** Introduction to Statistics (face-to-face general-education course)
+
+- Collaborated with instructors of record to redesign syllabi, examples, and assignments during a department-wide textbook transition.  
+- Administered and graded homework, quizzes, projects, and examinations; maintained detailed analytics to track student progress
+- Mentored undergraduates preparing posters for the Research Evening and McNair Scholars Program, guiding study design and data analysis.
+
+
+#### **Graduate Teaching Assistant**  
+*Dr. Kui Zhang, Department of Mathematical Sciences, Michigan Technological University*  
+_Fall 2022–Spring 2023_  
+**Courses:** Design & Analysis of Experiments, Applied Generalized Linear Models
+
+- Supported instruction in advanced undergraduate and graduate statistics courses
+- Held office hours and provided comprehensive assistance—from theoretical proof explanations to hands-on statistical-software implementation
+- Graded all homework and quizzes, supplying detailed, formative feedback to enhance student mastery
+
+
+
+*Beth Reed, Department of Mathematical Sciences, Michigan Technological University*  
+_Fall 2022–Spring 2023_  
+**Course:** Statistical Methods
+
+- Co-instructed selected lectures in Statistical Methods (a university-core course) and provided ongoing classroom support
+- Conducted office hours, guiding students from theoretical concepts to practical applications relevant to their research
+- Held office hours, providing supports from theoretical to application to the students so that they can see relevancy of statistical methods in their area of research
+- Graded homework, quizzes, and exams, furnishing individualized feedback to promote deeper understanding   
 
 
 
 ::: {.column-page}
-### Courses
+## Courses
 
-| Course | Institution | Sections Taught | Semesters Taught | Syllabus | Materials |
-|:--|:--:|:--:|:--:|:--|:--|
-| **Introduction to Statistical Modeling** | Macalester College | 2 | Fa25 (x2) | [Fall25 Syllabus](https://mutasim221b.github.io/Mac-STAT-155-Fall-25/syllabus.html) | [Course Website](https://mutasim221b.github.io/Mac-STAT-155-Fall-25) |
-| **Statistical Machine Learning** | Macalester College | TBD | Sp26 | TBD | TBD |
-| **Engineering Statistics (GTI)** | MTU | 15 | Fa20,21,23,24, Sp20-25, Su20-24 | [Sp25 Syllabus](courses/sp25.pdf) | [Live-Notes](courses/in-person-notes.pdf), [Handouts](courses/handouts.pdf), [Class-Notes](courses/class-notes.pdf), [Practice Problem](courses/PP-online.pdf) |
-| **Applied generalized Linear Models (GTA)** | MTU | 1 | Sp23 |  | [Class-Notes](courses/ma5771-combine.pdf) |
-| **Design & Analysis of Experiment (GTA)** | MTU | 1 | Fa22 | | [Class-Notes](courses/design.pdf) |
-| **Statistical Methods (GTA)** | MTU | 1 | Fa19 | | [Handouts](courses/stat-method-notes.pdf) |
-| **Introduction to Statistical Analysis (GTI)** | UNCo | 3 | Fa18, Sp19, Su19 | | |
+| Course | Institution | Sections Taught | Semesters Taught | Topics and Duties | Syllabus | Materials |
+|:--|:--:|:--:|:--:|:--|:--|:--|
+| **Introduction to Statistical Modeling** | Macalester College | 2 | Fa25 (x2) | Students learn exploratory data analysis and visualization; Simple and multiple linear regression with comprehensive model building--addressing confounding, interaction effects, variable selection, diagnostics, and transformations; Simple and multiple logistic regression with interpretation of odds ratios and evaluation of classification performance; Core inference for modeling (confidence intervals, hypothesis testing, F-tests); Semester-long research projects | [Fall25 Syllabus](https://mutasim221b.github.io/Mac-STAT-155-Fall-25/syllabus.html) | [Course Website](https://mutasim221b.github.io/Mac-STAT-155-Fall-25) |
+| **Statistical Machine Learning** | Macalester College | TBD | Sp26 | Topics will include model-evaluation strategies (overfitting diagnostics, cross-validation); regression model-selection techniques (LASSO and non-parametric alternatives); flexible models (K-NN with bias–variance considerations, LOESS, GAM); classification methods (logistic regression, K-NN, decision trees) and their performance metrics; ensemble learning (bagging, random forests); unsupervised learning (hierarchical and k-means clustering); and dimensionality-reduction tools such as principal component analysis (PCA) and principal component regression; Semester-long research projects | TBD | TBD |
+| **Engineering Statistics (GTI)** | MTU | 15 | Fa20,21,23,24, Sp20–25, Su20–24 | Independently instructed this foundational course, covering: exploratory data analysis and visualization; Probability theory and Bayes' theorem; Discrete and continuous distributions; Central Limit Theorem; Statistical inference including confidence intervals and hypothesis testing for means, proportions, and variances (t-tests, F-tests, Chi-square tests); Statistical process control and control charts; Linear regression modeling (simple, multiple, diagnostics, ANOVA); Principles of experimental design | [Sp25 Syllabus](courses/sp25.pdf) | [Live-Notes](courses/in-person-notes.pdf), [Handouts](courses/handouts.pdf), [Class-Notes](courses/class-notes.pdf), [Practice Problem](courses/PP-online.pdf) |
+| **Applied Generalized Linear Models (GTA)** | MTU | 1 | Sp23 | Assisted as TA: held office hours, moderated online discussions panel, graded assignments, and provided consultation on course topics and projects in Statistical modeling foundations; Linear regression and model diagnostics; Maximum likelihood estimation; Generalized linear models (GLMs) including structure, estimation, inference, and diagnostics; Models for proportions (binomial GLMs), counts (Poisson and negative binomial GLMs), and positive continuous data (gamma and inverse Gaussian GLMs); Tweedie models; Nominal and ordinal logistic regression |  | [Class-Notes](courses/ma5771-combine.pdf) |
+| **Design & Analysis of Experiment (GTA)** | MTU | 1 | Fa22 | Assisted as TA: held office hours, moderated online discussions panel, graded assignments, and provided consultation on course projects and topics in Principles of experimental design; ANOVA for one-way, factorial, and randomized complete block designs; post-hoc analysis, including contrasts and multiple comparison procedures; model diagnostics, assumption checking, and data transformations; and ANCOVA, including power and sample size determination | | [Class-Notes](courses/design.pdf) |
+| **Statistical Methods (GTA)** | MTU | 1 | Fa19 | Assisted as TA: co-taught coursework; held office hours, graded assignments and provided consultation on course topics in descriptive statistics and data visualization; fundamental probability theory; discrete and continuous distributions, including the binomial and normal; confidence-interval construction and hypothesis testing for one- and two-sample means; simple linear regression modeling and prediction; and one- and two-way ANOVA | | [Handouts](courses/stat-method-notes.pdf) |
+| **Introduction to Statistical Analysis (GTI)** | UNCo | 3 | Fa18, Sp19, Su19 | Instructed core statistical concepts including data organization (frequency distributions, histograms), measures of central tendency and variability, probability distributions, estimation, hypothesis testing, regression, and ANOVA. Actively contributed to ongoing course development, collaborated with fellow instructors to enhance course textbook and materials | | |
 :::
+
