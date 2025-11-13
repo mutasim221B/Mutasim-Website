@@ -9,9 +9,9 @@ format:
 
 ## Overview 
 
-I am a statistician and statistical geneticist with scholarly interests in both statistical methods development and collaborative applications. My work focuses on developing novel statistical methods and computationally efficient bioinformatics tools—leveraging modern machine- and deep-learning approaches—to analyze high-dimensional next-generation sequencing and multi-omics data and identify genes and regulatory mechanisms underlying complex disease. 
+My research lies at the intersection of statistical genetics, bioinformatics, and computational genomics. I develop novel statistical methods and computationally efficient bioinformatics tools---and leverage modern machine- and deep-learning approaches---to analyze high-dimensional next-generation sequencing and multi-omics data to identify genes and regulatory mechanisms underlying complex disease. In collaborative settings, I translate these approaches to address genetic and public-health questions across the biomedical sciences.
 
-I plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and—where appropriate—MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences.
+I plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and -- where appropriate -- MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences.
 
 
 ## Recent Projects
