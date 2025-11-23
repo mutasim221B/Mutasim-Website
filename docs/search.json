@@ -46,7 +46,7 @@
     "href": "research.html#recent-projects",
     "title": "Research",
     "section": "Recent Projects",
-    "text": "Recent Projects\nSubmitted for publication:\n\nTWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at bioRxiv.\n\nFinalizing manuscript for publication:\n\nGBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information\nApplication of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework"
+    "text": "Recent Projects\nSubmitted for publication:\n\nTWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at bioRxiv.\nGBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information. Preprint available at bioRxiv.\n\nFinalizing manuscript for publication:\n\nApplication of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework\nUnsupervised Clustering of Pleiotropic Signals in GWAS Using Sparse Phenotype Networks"
   },
   {
     "objectID": "research.html#active-research",

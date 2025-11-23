@@ -19,11 +19,12 @@ Submitted for publication:
 
 - TWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at [bioRxiv](https://doi.org/10.1101/2025.10.25.684514).
 
+- GBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information. Preprint available at [bioRxiv](https://doi.org/10.1101/2025.11.22.689782).
+
 Finalizing manuscript for publication:
 
-- GBoost-CTL: A novel method in multi-tissue transcriptome-wide association studies in cross-tissue learner incorporating GWAS information
-
 - Application of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework
+- Unsupervised Clustering of Pleiotropic Signals in GWAS Using Sparse Phenotype Networks
 
 ## Active Research
 
