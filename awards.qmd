@@ -7,7 +7,7 @@ format:
 ---
 
 # Achievement 
-## Teaching
+## Teaching at Michigan Technological University 
 
 At Michigan Technological University (MTU), teaching excellence is a priority in Mathematical Sciences. Graduate instructors complete the **Teaching College Mathematics** course before teaching; 3000-level courses are typically assigned to top GTIs with chair approval.
 
@@ -21,9 +21,9 @@ MTU evaluates instruction using the average of **seven dimensions**:
 - **Student Interest** — interest in students’ learning and development  
 - **Technology Usage** — effective use of technology
 
-## Summary of Evaluation Scores (All Semesters)
+### Summary of Evaluation Scores (All Semesters)
 
-I taught **MA 3710: Engineering Statistics** in multiple modalities: in-person, synchronous online, and asynchronous online. The figures below summarize average evaluation scores by semester and by dimension.
+I instructed **MA 3710: Engineering Statistics** in multiple modalities: in-person, synchronous online, and asynchronous online. The figures below summarize average evaluation scores by semester and by dimension.
 
 ![](images/table_evals.png){fig-cap="Average student evaluation scores across seven dimensions for each semester."}
 
@@ -37,6 +37,32 @@ I taught **MA 3710: Engineering Statistics** in multiple modalities: in-person, 
 :::
 
 **Interpretation.** The table reports average student evaluation scores for each semester across the seven dimensions. The line plot shows consistently strong evaluations at or above **4.21**, the overall MTU average over the past seven years. The heatmap breaks scores out by dimension (e.g., technology use, participation), highlighting strengths and opportunities for improvement.
+
+
+## Teaching at Macalester College
+
+Macalester College is one of the nation’s leading liberal arts institutions, with a highly diverse student body of about 2,000 undergraduates representing 45 states, the District of Columbia, and more than 70 countries.The college places the highest priority on excellence in teaching and learning.
+In Fall 2025, I have instructed STAT 155: Introduction to Statistical Modeling. The course is designed using a flipped classroom format, marking my first experience with this pedagogy. The course survey
+included five dimensions of teaching effectiveness.
+
+MTU evaluates instruction using the average of **seven dimensions**:
+
+- **Communication** — clear communication of course material
+- **Organization and Engagement** —  effective course organization and use of class time
+- **Availability** — Instructor availability when support is needed
+- **Feedback** — quality of feedback on assignments and exams 
+- **Inclusive Learning** — facilitating an inclusive learning environment where students feel welcomed and respected
+
+
+### Summary of Evaluation Scores (All Semesters)
+
+I instructed **MA 3710: Engineering Statistics** in multiple modalities: in-person, synchronous online, and asynchronous online. The figures below summarize average evaluation scores by semester and by dimension.
+
+![](images/Macalester-Fall25-Barplot.png){fig-cap="Barplot of evaluation scores across dimensions." height=600}
+
+
+**Interpretation.** Overall performance was strong, with all dimensions scoring at or above 4.00 on a 5-point scale. The highest ratings were observed for Inclusive Learning and Student Feedback (both 4.41), indicating that students felt welcomed, respected, and well supported through timely and constructive feedback. Communication also received a high mean score (4.35), reflecting clarity in presenting course material. Scores for Student Interest (4.24) and Organization and Engagement (4.00) further suggest consistent student engagement and effective use of class time, with room for continued refinement in course organization.
+
 
 
 # Awards
