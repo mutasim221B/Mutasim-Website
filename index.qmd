@@ -1,6 +1,6 @@
 ---
 title: "Md Mutasim Billah"
-subtitle: "Ph.D. in Statistics | Bioinformatics | Statistical Genetics | Biostatistics | Machine Learning | Deep Learning"
+subtitle: "Ph.D. in Statistics | Bioinformatics | Statistical Genetics | Biostatistics | Machine Learning | Deep Learning | Scholarship of Teaching and Learning"
 image: images/headshot.jpg
 image-alt: "Headshot of Md Mutasim Billah"
 about: # https://quarto.org/docs/websites/website-about.html
@@ -28,7 +28,7 @@ I am a Visiting Assistant Professor in the [Department of Mathematics, Statistic
 Entering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at the University of Northern Colorado (2018–2019), Michigan Technological University (2019–2024), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
 
 
-My methodological and applied research interest lies at the intersection of statistical genetics, bioinformatics, and computational genomics. Please read more about current and past projects on my [Research](research.qmd) page.
+My methodological and applied research interest lies at the intersection of statistical genetics, bioinformatics, and computational genomics. Please read more about current and past projects on my [Research & Mentoring](research.qmd) page.
 
 I am also developing a strong interest in SoTL (the scholarship of teaching and learning). I enjoy talking with students about courses, research, graduate programs, and career opportunities in statistics. 
 

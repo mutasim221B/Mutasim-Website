@@ -1,16 +1,19 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - courses/**
 
 website:
   title: "Md Mutasim Billah, PhD"
+  search: false
   navbar:
     right:
       - text: Home
         href: index.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Research
+      - text: Research & Mentoring
         href: research.qmd
       - text: Service & Leadership
         href: professional.qmd
@@ -18,16 +21,13 @@ website:
         href: awards.qmd
       - text: About Me
         href: about.qmd
-    tools: 
-      - icon: file-person
-        text: CV
-        href: cv/cv.pdf
+    # tools:
+    #   - icon: file-person
+    #     text: CV
+    #     href: cv/cv.pdf
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

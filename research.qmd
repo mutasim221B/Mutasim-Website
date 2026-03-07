@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Research and Mentoring"
 format: 
   html:
     embed-resources: true
@@ -7,14 +7,14 @@ format:
 ---
 
 
-## Overview 
+## Research Overview 
 
 My research lies at the intersection of statistical genetics, bioinformatics, and computational genomics. I develop novel statistical methods and computationally efficient bioinformatics tools---and leverage modern machine- and deep-learning approaches---to analyze high-dimensional next-generation sequencing and multi-omics data to identify genes and regulatory mechanisms underlying complex disease. In collaborative settings, I translate these approaches to address genetic and public-health questions across the biomedical sciences.
 
 I plan to engage students in this work by developing new courses (e.g., Statistical Genetics), integrating dataset-driven in-class projects, and supervising independent studies, honors theses, and -- where appropriate -- MS/PhD dissertations. Students will gain experience in R/Python, reproducible workflows (Quarto/Git), and scalable computing, and will be encouraged to disseminate their findings through campus research symposia, undergraduate research showcases, and regional/national conferences.
 
 
-## Recent Projects
+### Recent Projects
 Submitted for publication:
 
 - TWAS-CTL: A robust and efficient framework in multi-tissue transcriptome-wide association studies using cross-tissue learner. Preprint available at [bioRxiv](https://doi.org/10.1101/2025.10.25.684514).
@@ -26,15 +26,27 @@ Finalizing manuscript for publication:
 - Application of Deep Learning and Boosted Tree Methods in multi-tissue TWAS framework
 - Unsupervised Clustering of Pleiotropic Signals in GWAS Using Sparse Phenotype Networks
 
-## Active Research
 
-- Extending multi-tissue TWAS frameworks (e.g., CTL, G-Boost-CTL) to leverage GWAS summary-level data 
-- Benchmarking advanced ML and DL Models for cross-tissue gene expression imputation 
-- Developing unsupervised clustering and latent-factor approaches to characterize pleiotropic effects in GWAS
-- Investigating the distinct roles and interactions of local and distant genetic variants in controlling gene expression across different tissues within the TWAS framework
-- Applying advanced ML and DL architectures for multi-omics data integration
-- Developing sparsity-inducing, power-adaptive procedures to identify and remove non-informative tissues in multi-tissue TWAS
 
+## Pedagogical Scholarship Interests
+
+My pedagogical scholarship focuses on evidence-based teaching practices that enhance student engagement, conceptual understanding, and quantitative reasoning in mathematics, statistics, and data science. I am particularly interested in implementing flipped classroom models, active learning strategies, and student-centered instructional approaches that support the development of statistical reasoning and data literacy.
+
+Another area of interest is the design of scalable and equitable assessment frameworks, including alternative grading systems that can be implemented effectively in both small and large classrooms. I study how these approaches influence student motivation, learning outcomes, and inclusive classroom environments.
+
+I am also interested in exploring the role of generative AI and emerging computational tools in teaching and learning. In particular, I examine how AI-assisted workflows can enhance computational literacy, support programming instruction in programming tools, and help students develop reproducible analytical practices in modern STEM curricula.
+
+
+
+## Student Mentoring
+
+### Macalester College: Capstone Project Mentor 
+
+- **Max Clifford and Ryan Mickelborough.**  
+  *Investigating Energy Grid Balancing Authorities and Renewable Energy Usage Using a Time Series Analysis Approach.*  Fall 25 - Spring 26
+
+- **Noah Shannon and Austin Mills.**  
+  *What Drives Winning in College Basketball? — A Mixed Effect Model Approach.*  Fall 25 - Spring 26
 
 
 
