@@ -45,7 +45,7 @@ Macalester College is one of the nation’s leading liberal arts institutions, w
 In Fall 2025, I have instructed STAT 155: Introduction to Statistical Modeling. The course is designed using a flipped classroom format, marking my first experience with this pedagogy. The course survey
 included five dimensions of teaching effectiveness.
 
-MTU evaluates instruction using the average of **seven dimensions**:
+Macalester College evaluates instruction using the average of **five dimensions**:
 
 - **Communication** — clear communication of course material
 - **Organization and Engagement** —  effective course organization and use of class time
@@ -54,9 +54,9 @@ MTU evaluates instruction using the average of **seven dimensions**:
 - **Inclusive Learning** — facilitating an inclusive learning environment where students feel welcomed and respected
 
 
-### Summary of Evaluation Scores (All Semesters)
+### Summary of Evaluation Scores (Fall 2025)
 
-I instructed **MA 3710: Engineering Statistics** in multiple modalities: in-person, synchronous online, and asynchronous online. The figures below summarize average evaluation scores by semester and by dimension.
+I instructed **STAT 155: Introduction of Statistical Modeling** in the fall 2025. The figures below summarize average evaluation scores by each dimension.
 
 ![](images/Macalester-Fall25-Barplot.png){fig-cap="Barplot of evaluation scores across dimensions." height=600}
 
@@ -85,9 +85,12 @@ I instructed **MA 3710: Engineering Statistics** in multiple modalities: in-pers
   - Top performance in Ph.D.-level coursewors:
        - *Probability II* [Spring ’22] 
        - *Probability I* [Fall ’21]
+       - *Predictive Modeling* [Fall ’21]
+      - *Applied Generalized Linear Model* [Fall ’21]
+       - *Computational Statistics* [Spring ’21]
        - *Mathematical Statistics I* [4000 level- Fall ’19, 5000 level- Fall ’20]
        - *Mathematical Statistics II* [4000 level- Spring ’20, 5000 level- Spring ’21]
        - *Categorical Data Analysis* [Spring ’20]
-       - *Linear Algebra* [Fall ’19]
+       - *Teaching College Mathematics* [Fall ’19]
 
   
