@@ -12,11 +12,22 @@ I received formal pedagogical training at Michigan Technological University thro
 
 
 ## Teaching Experience
+
+#### **Full-time Lecturer**
+*Department of Mathematics, Applied Mathematics, and Statistics, Case Western Reserve University*  
+_Fall 2026–Present_
+
+- Teaching **STAT 312: Basic Statistics for Engineering and Science**, with an emphasis on statistical reasoning, data analysis, and applications relevant to engineering and scientific disciplines.
+- Developing and maintaining comprehensive course materials and an interactive course website using **Quarto**, **GitHub**, and **R** to provide students with organized, reproducible, and accessible learning resources.
+- Designing lectures, in-class activities, assignments, supplemental practice materials, and computational exercises to connect statistical concepts with real-world applications.
+- Planning to Contribute to student mentoring, including **Capstone Projects**, curriculum development, and the training and mentoring of teaching assistants (TAs).
+
+
 #### **Visiting Assistant Professor**  
 *Department of Mathematics, Statistics, and Computer Science, Macalester College*  
-_Fall 2025-Present_
+_Fall 2025-Summer 2026_
 
-- Teaching courses at both the foundational and advanced levels of the undergraduate statistics and data science curriculum.  
+- Teaching courses at both the foundational and higher levels of the undergraduate statistics and data science curriculum.  
 - Designing and continually updating the course website using **Quarto**, integrated with **GitHub** for version control and **R** for reproducible workflows, ensuring students have seamless access to current materials and activities.  
 - Enhancing course curriculum in collaboration with other instructors to align learning outcomes with program objectives and integrating statistical software to strengthen students’ analytic fluency.  
 - Mentoring undergraduate researchers from project conception through analysis and conference-style presentations; preparing students to present their work at research symposia.

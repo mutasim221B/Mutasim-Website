@@ -8,16 +8,13 @@ about: # https://quarto.org/docs/websites/website-about.html
   links:
     - icon: envelope
       text: Email
-      href: mailto:mbillah@macalester.edu
+      href: mailto:mdmutasim.billah@case.edu
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/mutasim221b/
-    - icon: google-scholar
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=-wpYbcAAAAAJ&hl=en&oi=ao
 ---
 
-I am a Visiting Assistant Professor in the [Department of Mathematics, Statistics, and Computer Science](https://www.macalester.edu/mscs/) at Macalester College in St. Paul, Minnesota- one of the top-ranked liberal arts institutions in the United States.
+I am a Full-time Lecturer in the [Department of Mathematics, Applied Mathematics, and Statistics](https://mathstats.case.edu/) at Case Western Reserve University in Cleveland, OH.
 
 
 ::: callout-quote
@@ -25,14 +22,14 @@ I am a Visiting Assistant Professor in the [Department of Mathematics, Statistic
 — H.G. Wells
 :::
 
-Entering Fall 2025, I begin my eighth year teaching statistics. My appointments include Graduate Teaching Instructor at the University of Northern Colorado (2018–2019), Michigan Technological University (2019–2025), and Visiting Assistant Professor at Macalester College (2025–present). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
+Entering Fall 2026, I begin my ninth year teaching statistics. My past appointments included Graduate Teaching Instructor at the University of Northern Colorado (2018–19), Michigan Technological University (2019–25), and Visiting Assistant Professor at Macalester College (2025–26). You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching.qmd) page. 
 
 
 My methodological and applied research interest lies at the intersection of statistical genetics, bioinformatics, and computational genomics. Please read more about current and past projects on my [Research & Mentoring](research.qmd) page.
 
 I am also developing a strong interest in SoTL (the scholarship of teaching and learning). I enjoy talking with students about courses, research, undergraduate and graduate programs, and career opportunities in statistics and data science. 
 
-Beyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I serve on the Transformation Committee and contribute to preceptor (TA) program development, training, and evaluation, faculty-development support, and DEI initiatives. Please see the [Service & Leadership](professional.qmd) tab for details.
+Beyond the classroom and research, I’m active in professional service and leadership. At Macalester College, I served on the Transformation Committee and contribute to preceptor (TA) program development, training, and evaluation, faculty-development support, and DEI initiatives. At CWRU, I plan to actively engage in student mentoring, including Capstone Projects, curriculum development, and the training and mentoring of teaching assistants (TAs). Please see the [Service & Leadership](professional.qmd) tab for details.
 
 
 
